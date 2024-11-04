@@ -1,0 +1,472 @@
+INFO - 2024-10-11 02:42:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 02:43:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 02:43:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 02:43:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 02:43:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 02:43:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-11 02:43:25 --> ErrorException: Undefined index: jekel
+in APPPATH\Views\auth\pengajar\list.php on line 39.
+ 1 APPPATH\Views\auth\pengajar\list.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: jekel', 'C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Views\\auth\\pengajar\\list.php', 39, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Views\\auth\\pengajar\\list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('auth/pengajar/list', [], true)
+ 5 APPPATH\Controllers\Pengajar.php(32): view('auth/pengajar/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pengajar->getdata()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajar))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-11 02:43:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 02:43:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 02:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 02:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 02:43:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 02:43:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 02:43:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 02:43:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-11 02:43:57 --> mysqli_sql_exception: Unknown column 'kelas.pengajar_id' in 'on clause' in C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\terbaru\TPQ\system\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\terbaru\TPQ\app\Models\Modelkelas.php(26): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\terbaru\TPQ\app\Controllers\Santri.php(469): App\Models\Modelkelas->listjoin()
+#7 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(941): App\Controllers\Santri->getkelas()
+#8 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+#9 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\terbaru\TPQ\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\terbaru\TPQ\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-10-11 02:43:57 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'kelas.pengajar_id' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kelas`
+JOIN `pengajar` ON `pengajar`.`pengajar_id` = `kelas`.`pengajar_id`
+ORDER BY `kelas_id` ASC', [], false)
+ 2 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Models\Modelkelas.php(26): CodeIgniter\Model->__call('get', [])
+ 4 APPPATH\Controllers\Santri.php(469): App\Models\Modelkelas->listjoin()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->getkelas()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-10-11 02:43:57 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'kelas.pengajar_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `kelas`
+JOIN `pengajar` ON `pengajar`.`pengajar_id` = `kelas`.`pengajar_id`
+ORDER BY `kelas_id` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `kelas`
+JOIN `pengajar` ON `pengajar`.`pengajar_id` = `kelas`.`pengajar_id`
+ORDER BY `kelas_id` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kelas`
+JOIN `pengajar` ON `pengajar`.`pengajar_id` = `kelas`.`pengajar_id`
+ORDER BY `kelas_id` ASC', [], false)
+ 4 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Models\Modelkelas.php(26): CodeIgniter\Model->__call('get', [])
+ 6 APPPATH\Controllers\Santri.php(469): App\Models\Modelkelas->listjoin()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->getkelas()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-10-11 02:43:57 --> [Caused by] mysqli_sql_exception: Unknown column 'kelas.pengajar_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `kelas`
+JOIN `pengajar` ON `pengajar`.`pengajar_id` = `kelas`.`pengajar_id`
+ORDER BY `kelas_id` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `kelas`
+JOIN `pengajar` ON `pengajar`.`pengajar_id` = `kelas`.`pengajar_id`
+ORDER BY `kelas_id` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `kelas`
+JOIN `pengajar` ON `pengajar`.`pengajar_id` = `kelas`.`pengajar_id`
+ORDER BY `kelas_id` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kelas`
+JOIN `pengajar` ON `pengajar`.`pengajar_id` = `kelas`.`pengajar_id`
+ORDER BY `kelas_id` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\Modelkelas.php(26): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\Santri.php(469): App\Models\Modelkelas->listjoin()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->getkelas()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-11 02:43:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 02:44:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 02:44:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 02:44:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 02:44:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 02:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 02:48:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 02:48:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 02:51:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 02:51:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 02:51:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 02:53:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 02:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 02:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 02:53:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 02:53:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 02:53:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 02:54:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 02:54:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 02:54:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 02:54:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 02:54:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 02:54:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 02:54:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 02:55:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 02:55:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 02:55:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 02:55:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 02:55:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 02:55:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 02:55:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 02:55:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 02:55:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 02:55:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 02:56:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 02:56:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-11 02:56:24 --> ErrorException: Undefined index: jekel
+in APPPATH\Views\auth\pengajar\list.php on line 39.
+ 1 APPPATH\Views\auth\pengajar\list.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: jekel', 'C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Views\\auth\\pengajar\\list.php', 39, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Views\\auth\\pengajar\\list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('auth/pengajar/list', [], true)
+ 5 APPPATH\Controllers\Pengajar.php(32): view('auth/pengajar/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pengajar->getdata()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajar))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-11 02:56:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 02:56:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 02:56:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 02:56:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 02:56:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 03:27:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 03:27:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 03:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 03:28:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 03:28:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 03:28:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 03:28:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 03:28:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 03:28:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 03:28:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 03:28:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 03:28:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 03:42:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 03:42:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 03:42:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 03:42:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-11 03:42:37 --> ErrorException: Undefined index: jekel
+in APPPATH\Views\auth\pengajar\list.php on line 39.
+ 1 APPPATH\Views\auth\pengajar\list.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: jekel', 'C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Views\\auth\\pengajar\\list.php', 39, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Views\\auth\\pengajar\\list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('auth/pengajar/list', [], true)
+ 5 APPPATH\Controllers\Pengajar.php(32): view('auth/pengajar/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pengajar->getdata()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajar))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-11 03:42:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 03:42:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 03:43:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 03:43:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 03:43:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 03:43:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 03:43:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 03:43:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 03:43:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 03:43:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 03:44:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 03:44:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 03:44:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 03:44:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 03:44:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 03:44:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-11 03:44:41 --> ErrorException: Undefined index: jekel
+in APPPATH\Views\auth\pengajar\list.php on line 39.
+ 1 APPPATH\Views\auth\pengajar\list.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: jekel', 'C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Views\\auth\\pengajar\\list.php', 39, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Views\\auth\\pengajar\\list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('auth/pengajar/list', [], true)
+ 5 APPPATH\Controllers\Pengajar.php(32): view('auth/pengajar/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pengajar->getdata()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajar))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-11 03:44:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 03:44:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 03:44:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-11 03:44:53 --> ErrorException: Undefined index: jekel
+in APPPATH\Views\auth\pengajar\list.php on line 39.
+ 1 APPPATH\Views\auth\pengajar\list.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: jekel', 'C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Views\\auth\\pengajar\\list.php', 39, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Views\\auth\\pengajar\\list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('auth/pengajar/list', [], true)
+ 5 APPPATH\Controllers\Pengajar.php(32): view('auth/pengajar/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pengajar->getdata()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajar))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-11 03:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 03:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-11 03:45:00 --> ErrorException: Undefined index: jekel
+in APPPATH\Views\auth\pengajar\list.php on line 39.
+ 1 APPPATH\Views\auth\pengajar\list.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: jekel', 'C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Views\\auth\\pengajar\\list.php', 39, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Views\\auth\\pengajar\\list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('auth/pengajar/list', [], true)
+ 5 APPPATH\Controllers\Pengajar.php(32): view('auth/pengajar/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pengajar->getdata()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajar))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-11 03:45:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 03:45:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-11 03:45:53 --> ErrorException: Undefined index: jekel
+in APPPATH\Views\auth\pengajar\list.php on line 39.
+ 1 APPPATH\Views\auth\pengajar\list.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: jekel', 'C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Views\\auth\\pengajar\\list.php', 39, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Views\\auth\\pengajar\\list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('auth/pengajar/list', [], true)
+ 5 APPPATH\Controllers\Pengajar.php(32): view('auth/pengajar/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pengajar->getdata()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajar))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-11 03:45:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 03:45:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-11 03:45:59 --> ErrorException: Undefined index: jekel
+in APPPATH\Views\auth\pengajar\list.php on line 39.
+ 1 APPPATH\Views\auth\pengajar\list.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: jekel', 'C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Views\\auth\\pengajar\\list.php', 39, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Views\\auth\\pengajar\\list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('auth/pengajar/list', [], true)
+ 5 APPPATH\Controllers\Pengajar.php(32): view('auth/pengajar/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pengajar->getdata()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajar))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-11 03:46:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 03:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-11 03:46:02 --> ErrorException: Undefined index: jekel
+in APPPATH\Views\auth\pengajar\list.php on line 39.
+ 1 APPPATH\Views\auth\pengajar\list.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: jekel', 'C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Views\\auth\\pengajar\\list.php', 39, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Views\\auth\\pengajar\\list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('auth/pengajar/list', [], true)
+ 5 APPPATH\Controllers\Pengajar.php(32): view('auth/pengajar/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pengajar->getdata()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajar))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-11 03:53:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 03:53:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 03:53:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 03:53:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 03:53:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 03:54:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 03:54:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 03:54:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 04:00:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 04:00:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-11 04:00:57 --> ErrorException: Undefined index: jekel
+in APPPATH\Controllers\Pengajar.php on line 44.
+ 1 APPPATH\Controllers\Pengajar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: jekel', 'C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Controllers\\Pengajar.php', 44, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pengajar->getdata()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajar))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-11 04:00:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 04:01:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-11 04:01:00 --> ErrorException: Undefined index: jekel
+in APPPATH\Controllers\Pengajar.php on line 44.
+ 1 APPPATH\Controllers\Pengajar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: jekel', 'C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Controllers\\Pengajar.php', 44, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pengajar->getdata()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajar))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-11 04:01:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 04:01:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-11 04:01:02 --> ErrorException: Undefined index: jekel
+in APPPATH\Controllers\Pengajar.php on line 44.
+ 1 APPPATH\Controllers\Pengajar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: jekel', 'C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Controllers\\Pengajar.php', 44, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pengajar->getdata()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajar))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-11 04:01:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 04:01:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 04:01:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-11 04:01:16 --> ErrorException: Undefined index: jekel
+in APPPATH\Controllers\Pengajar.php on line 44.
+ 1 APPPATH\Controllers\Pengajar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: jekel', 'C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Controllers\\Pengajar.php', 44, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pengajar->getdata()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajar))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-11 04:01:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 04:01:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 04:01:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 04:01:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 04:11:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 04:11:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 04:16:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 04:17:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 04:17:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 04:17:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 04:17:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 04:19:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 04:19:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 04:19:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 04:21:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 04:21:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 04:21:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 04:21:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-11 04:21:42 --> ErrorException: Undefined index: jekel
+in APPPATH\Views\auth\pengajar\list.php on line 39.
+ 1 APPPATH\Views\auth\pengajar\list.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: jekel', 'C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Views\\auth\\pengajar\\list.php', 39, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Views\\auth\\pengajar\\list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('auth/pengajar/list', [], true)
+ 5 APPPATH\Controllers\Pengajar.php(32): view('auth/pengajar/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pengajar->getdata()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajar))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-11 04:21:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 04:21:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-11 04:21:43 --> ErrorException: Undefined index: jekel
+in APPPATH\Views\auth\pengajar\list.php on line 39.
+ 1 APPPATH\Views\auth\pengajar\list.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: jekel', 'C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Views\\auth\\pengajar\\list.php', 39, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Views\\auth\\pengajar\\list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('auth/pengajar/list', [], true)
+ 5 APPPATH\Controllers\Pengajar.php(32): view('auth/pengajar/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pengajar->getdata()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajar))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-11 04:23:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 04:23:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-11 04:23:42 --> ErrorException: Undefined index: jekel
+in APPPATH\Views\auth\pengajar\list.php on line 38.
+ 1 APPPATH\Views\auth\pengajar\list.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: jekel', 'C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Views\\auth\\pengajar\\list.php', 38, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Views\\auth\\pengajar\\list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('auth/pengajar/list', [], true)
+ 5 APPPATH\Controllers\Pengajar.php(32): view('auth/pengajar/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pengajar->getdata()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajar))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-11 04:23:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 04:23:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-11 04:23:44 --> ErrorException: Undefined index: jekel
+in APPPATH\Views\auth\pengajar\list.php on line 38.
+ 1 APPPATH\Views\auth\pengajar\list.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: jekel', 'C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Views\\auth\\pengajar\\list.php', 38, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Views\\auth\\pengajar\\list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('auth/pengajar/list', [], true)
+ 5 APPPATH\Controllers\Pengajar.php(32): view('auth/pengajar/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pengajar->getdata()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajar))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-11 04:29:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 04:29:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-11 04:29:59 --> ErrorException: Undefined index: jekel
+in APPPATH\Views\auth\pengajar\list.php on line 38.
+ 1 APPPATH\Views\auth\pengajar\list.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: jekel', 'C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Views\\auth\\pengajar\\list.php', 38, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Views\\auth\\pengajar\\list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('auth/pengajar/list', [], true)
+ 5 APPPATH\Controllers\Pengajar.php(32): view('auth/pengajar/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pengajar->getdata()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajar))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-11 04:30:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 04:30:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-11 04:30:02 --> ErrorException: Undefined index: jekel
+in APPPATH\Views\auth\pengajar\list.php on line 38.
+ 1 APPPATH\Views\auth\pengajar\list.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: jekel', 'C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Views\\auth\\pengajar\\list.php', 38, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Views\\auth\\pengajar\\list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('auth/pengajar/list', [], true)
+ 5 APPPATH\Controllers\Pengajar.php(32): view('auth/pengajar/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pengajar->getdata()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajar))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-11 04:30:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 04:30:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-11 04:30:32 --> ErrorException: Undefined index: jekel
+in APPPATH\Views\auth\pengajar\list.php on line 38.
+ 1 APPPATH\Views\auth\pengajar\list.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: jekel', 'C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Views\\auth\\pengajar\\list.php', 38, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Views\\auth\\pengajar\\list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('auth/pengajar/list', [], true)
+ 5 APPPATH\Controllers\Pengajar.php(32): view('auth/pengajar/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pengajar->getdata()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajar))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-11 04:30:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 04:30:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-11 04:30:33 --> ErrorException: Undefined index: jekel
+in APPPATH\Views\auth\pengajar\list.php on line 38.
+ 1 APPPATH\Views\auth\pengajar\list.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: jekel', 'C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Views\\auth\\pengajar\\list.php', 38, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Views\\auth\\pengajar\\list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('auth/pengajar/list', [], true)
+ 5 APPPATH\Controllers\Pengajar.php(32): view('auth/pengajar/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pengajar->getdata()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajar))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-11 04:32:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 04:32:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 04:32:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 04:33:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 04:33:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 04:33:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 04:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 04:40:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 04:40:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 04:40:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 04:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-11 04:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

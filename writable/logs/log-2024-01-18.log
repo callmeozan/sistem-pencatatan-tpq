@@ -1,0 +1,138 @@
+INFO - 2024-01-18 13:28:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-18 13:28:57 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'sekolah' in D:\Project\Website\TPQ\TPQ\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 D:\Project\Website\TPQ\TPQ\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'sekolah', 3306, '', 0)
+#1 D:\Project\Website\TPQ\TPQ\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Project\Website\TPQ\TPQ\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Project\Website\TPQ\TPQ\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`p...', Array, false)
+#4 D:\Project\Website\TPQ\TPQ\system\Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project\Website\TPQ\TPQ\system\BaseModel.php(676): CodeIgniter\Model->doFirst()
+#6 D:\Project\Website\TPQ\TPQ\app\Controllers\Home.php(9): CodeIgniter\BaseModel->first()
+#7 D:\Project\Website\TPQ\TPQ\system\CodeIgniter.php(941): App\Controllers\Home->index()
+#8 D:\Project\Website\TPQ\TPQ\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 D:\Project\Website\TPQ\TPQ\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Project\Website\TPQ\TPQ\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\Project\Website\TPQ\TPQ\system\Commands\Server\rewrite.php(47): require_once('D:\\Project\\Webs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'sekolah' in D:\Project\Website\TPQ\TPQ\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\Project\Website\TPQ\TPQ\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Project\Website\TPQ\TPQ\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Project\Website\TPQ\TPQ\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`p...', Array, false)
+#3 D:\Project\Website\TPQ\TPQ\system\Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Project\Website\TPQ\TPQ\system\BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 D:\Project\Website\TPQ\TPQ\app\Controllers\Home.php(9): CodeIgniter\BaseModel->first()
+#6 D:\Project\Website\TPQ\TPQ\system\CodeIgniter.php(941): App\Controllers\Home->index()
+#7 D:\Project\Website\TPQ\TPQ\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Project\Website\TPQ\TPQ\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Project\Website\TPQ\TPQ\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\Project\Website\TPQ\TPQ\system\Commands\Server\rewrite.php(47): require_once('D:\\Project\\Webs...')
+#11 {main}
+CRITICAL - 2024-01-18 13:28:57 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'sekolah'
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`pengurus_id`) AS `pengurus_id`
+FROM `pengurus`
+ LIMIT 1', [], false)
+ 3 SYSTEMPATH\Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Home.php(9): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Project\\Website\\TPQ\\TPQ\\public\\index.php')
+CRITICAL - 2024-01-18 13:28:57 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in D:\Project\Website\TPQ\TPQ\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 D:\Project\Website\TPQ\TPQ\system\Debug\BaseExceptionHandler.php(248): include()
+#1 D:\Project\Website\TPQ\TPQ\system\Debug\BaseExceptionHandler.php(251): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 D:\Project\Website\TPQ\TPQ\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500, 'D:\\Project\\Webs...')
+#3 D:\Project\Website\TPQ\TPQ\system\Debug\Exceptions.php(157): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Database\Exceptions\DatabaseException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 8)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Database\Exceptions\DatabaseException
+Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'sekolah'
+#0 D:\Project\Website\TPQ\TPQ\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Project\Website\TPQ\TPQ\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`p...', Array, false)
+#2 D:\Project\Website\TPQ\TPQ\system\Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Project\Website\TPQ\TPQ\system\BaseModel.php(676): CodeIgniter\Model->doFirst()
+#4 D:\Project\Website\TPQ\TPQ\app\Controllers\Home.php(9): CodeIgniter\BaseModel->first()
+#5 D:\Project\Website\TPQ\TPQ\system\CodeIgniter.php(941): App\Controllers\Home->index()
+#6 D:\Project\Website\TPQ\TPQ\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\Project\Website\TPQ\TPQ\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project\Website\TPQ\TPQ\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 D:\Project\Website\TPQ\TPQ\system\Commands\Server\rewrite.php(47): require_once('D:\\Project\\Webs...')
+#10 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-01-18 13:29:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-18 13:29:42 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'sekolah' in D:\Project\Website\TPQ\TPQ\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 D:\Project\Website\TPQ\TPQ\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'sekolah', 3306, '', 0)
+#1 D:\Project\Website\TPQ\TPQ\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Project\Website\TPQ\TPQ\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Project\Website\TPQ\TPQ\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`p...', Array, false)
+#4 D:\Project\Website\TPQ\TPQ\system\Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project\Website\TPQ\TPQ\system\BaseModel.php(676): CodeIgniter\Model->doFirst()
+#6 D:\Project\Website\TPQ\TPQ\app\Controllers\Home.php(9): CodeIgniter\BaseModel->first()
+#7 D:\Project\Website\TPQ\TPQ\system\CodeIgniter.php(941): App\Controllers\Home->index()
+#8 D:\Project\Website\TPQ\TPQ\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 D:\Project\Website\TPQ\TPQ\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Project\Website\TPQ\TPQ\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\Project\Website\TPQ\TPQ\system\Commands\Server\rewrite.php(47): require_once('D:\\Project\\Webs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'sekolah' in D:\Project\Website\TPQ\TPQ\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\Project\Website\TPQ\TPQ\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Project\Website\TPQ\TPQ\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Project\Website\TPQ\TPQ\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`p...', Array, false)
+#3 D:\Project\Website\TPQ\TPQ\system\Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Project\Website\TPQ\TPQ\system\BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 D:\Project\Website\TPQ\TPQ\app\Controllers\Home.php(9): CodeIgniter\BaseModel->first()
+#6 D:\Project\Website\TPQ\TPQ\system\CodeIgniter.php(941): App\Controllers\Home->index()
+#7 D:\Project\Website\TPQ\TPQ\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Project\Website\TPQ\TPQ\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Project\Website\TPQ\TPQ\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\Project\Website\TPQ\TPQ\system\Commands\Server\rewrite.php(47): require_once('D:\\Project\\Webs...')
+#11 {main}
+CRITICAL - 2024-01-18 13:29:42 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'sekolah'
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`pengurus_id`) AS `pengurus_id`
+FROM `pengurus`
+ LIMIT 1', [], false)
+ 3 SYSTEMPATH\Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Home.php(9): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Project\\Website\\TPQ\\TPQ\\public\\index.php')
+INFO - 2024-01-18 13:30:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-18 13:30:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-18 13:31:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-18 13:31:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-18 13:33:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-18 13:33:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-18 13:33:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-18 13:33:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-18 13:34:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-18 13:34:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-18 13:34:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-18 13:46:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-18 13:46:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-18 13:48:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-18 13:48:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-18 13:49:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-18 13:49:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-18 13:49:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-18 13:55:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-18 13:55:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

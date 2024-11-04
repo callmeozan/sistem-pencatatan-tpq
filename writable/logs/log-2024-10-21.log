@@ -1,0 +1,1393 @@
+INFO - 2024-10-21 04:00:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:00:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:01:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:01:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:01:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:01:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:01:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:01:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:01:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:01:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:01:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:01:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:01:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:01:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-21 04:01:46 --> ErrorException: Undefined property: App\Controllers\Dashboard::$pengumuman
+in APPPATH\Controllers\Dashboard.php on line 17.
+ 1 APPPATH\Controllers\Dashboard.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Dashboard::$pengumuman', 'C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Controllers\\Dashboard.php', 17, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-21 04:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-21 04:03:29 --> ErrorException: Undefined property: App\Controllers\Dashboard::$pendaftar
+in APPPATH\Controllers\Dashboard.php on line 17.
+ 1 APPPATH\Controllers\Dashboard.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Dashboard::$pendaftar', 'C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Controllers\\Dashboard.php', 17, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-21 04:03:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-21 04:03:43 --> ErrorException: Undefined variable: pengumuman
+in APPPATH\Controllers\Dashboard.php on line 24.
+ 1 APPPATH\Controllers\Dashboard.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: pengumuman', 'C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Controllers\\Dashboard.php', 24, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-21 04:03:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-21 04:03:59 --> ErrorException: Undefined variable: pengumuman
+in APPPATH\Views\auth\dashboard.php on line 140.
+ 1 APPPATH\Views\auth\dashboard.php(140): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: pengumuman', 'C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Views\\auth\\dashboard.php', 140, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Views\\auth\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('auth/dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(25): view('auth/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-21 04:04:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-21 04:04:36 --> ErrorException: Undefined variable: pengumuman
+in APPPATH\Views\auth\dashboard.php on line 158.
+ 1 APPPATH\Views\auth\dashboard.php(158): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: pengumuman', 'C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Views\\auth\\dashboard.php', 158, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Views\\auth\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('auth/dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(25): view('auth/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-21 04:05:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:07:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:08:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:08:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:08:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:08:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:09:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:09:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:09:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:09:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:09:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:09:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:09:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:09:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:09:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:09:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:09:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:10:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-21 04:10:43 --> mysqli_sql_exception: Unknown column 'nis' in 'where clause' in C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\terbaru\TPQ\system\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\terbaru\TPQ\system\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('411233160549150...', 'nis', Array, NULL, 'nism')
+#6 C:\xampp\htdocs\terbaru\TPQ\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nism', 'Nism', '411233160549150...', Array, Array)
+#7 C:\xampp\htdocs\terbaru\TPQ\system\Controller.php(152): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\terbaru\TPQ\app\Controllers\Santri.php(104): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(941): App\Controllers\Santri->simpan()
+#10 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+#11 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\terbaru\TPQ\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\terbaru\TPQ\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-10-21 04:10:43 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nis' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `santri`
+WHERE `nis` = :nis:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('411233160549150133', 'nis', [...], null, 'nism')
+ 4 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nism', 'Nism', '411233160549150133', [...], [...])
+ 5 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Santri.php(104): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->simpan()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-10-21 04:10:43 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nis' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `santri`
+WHERE `nis` = :nis:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('411233160549150133', 'nis', [...], null, 'nism')
+ 6 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nism', 'Nism', '411233160549150133', [...], [...])
+ 7 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH\Controllers\Santri.php(104): CodeIgniter\Controller->validate([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->simpan()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-10-21 04:10:43 --> [Caused by] mysqli_sql_exception: Unknown column 'nis' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `santri`
+WHERE `nis` = :nis:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('411233160549150133', 'nis', [...], null, 'nism')
+ 7 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nism', 'Nism', '411233160549150133', [...], [...])
+ 8 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\Santri.php(104): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->simpan()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-21 04:10:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-21 04:10:45 --> mysqli_sql_exception: Unknown column 'nis' in 'where clause' in C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\terbaru\TPQ\system\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\terbaru\TPQ\system\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('411233160549150...', 'nis', Array, NULL, 'nism')
+#6 C:\xampp\htdocs\terbaru\TPQ\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nism', 'Nism', '411233160549150...', Array, Array)
+#7 C:\xampp\htdocs\terbaru\TPQ\system\Controller.php(152): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\terbaru\TPQ\app\Controllers\Santri.php(104): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(941): App\Controllers\Santri->simpan()
+#10 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+#11 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\terbaru\TPQ\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\terbaru\TPQ\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-10-21 04:10:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nis' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `santri`
+WHERE `nis` = :nis:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('411233160549150133', 'nis', [...], null, 'nism')
+ 4 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nism', 'Nism', '411233160549150133', [...], [...])
+ 5 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Santri.php(104): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->simpan()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-10-21 04:10:45 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nis' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `santri`
+WHERE `nis` = :nis:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('411233160549150133', 'nis', [...], null, 'nism')
+ 6 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nism', 'Nism', '411233160549150133', [...], [...])
+ 7 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH\Controllers\Santri.php(104): CodeIgniter\Controller->validate([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->simpan()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-10-21 04:10:45 --> [Caused by] mysqli_sql_exception: Unknown column 'nis' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `santri`
+WHERE `nis` = :nis:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('411233160549150133', 'nis', [...], null, 'nism')
+ 7 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nism', 'Nism', '411233160549150133', [...], [...])
+ 8 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\Santri.php(104): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->simpan()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-21 04:10:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-21 04:10:45 --> mysqli_sql_exception: Unknown column 'nis' in 'where clause' in C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\terbaru\TPQ\system\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\terbaru\TPQ\system\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('411233160549150...', 'nis', Array, NULL, 'nism')
+#6 C:\xampp\htdocs\terbaru\TPQ\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nism', 'Nism', '411233160549150...', Array, Array)
+#7 C:\xampp\htdocs\terbaru\TPQ\system\Controller.php(152): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\terbaru\TPQ\app\Controllers\Santri.php(104): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(941): App\Controllers\Santri->simpan()
+#10 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+#11 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\terbaru\TPQ\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\terbaru\TPQ\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-10-21 04:10:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nis' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `santri`
+WHERE `nis` = :nis:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('411233160549150133', 'nis', [...], null, 'nism')
+ 4 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nism', 'Nism', '411233160549150133', [...], [...])
+ 5 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Santri.php(104): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->simpan()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-10-21 04:10:45 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nis' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `santri`
+WHERE `nis` = :nis:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('411233160549150133', 'nis', [...], null, 'nism')
+ 6 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nism', 'Nism', '411233160549150133', [...], [...])
+ 7 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH\Controllers\Santri.php(104): CodeIgniter\Controller->validate([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->simpan()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-10-21 04:10:45 --> [Caused by] mysqli_sql_exception: Unknown column 'nis' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `santri`
+WHERE `nis` = :nis:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('411233160549150133', 'nis', [...], null, 'nism')
+ 7 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nism', 'Nism', '411233160549150133', [...], [...])
+ 8 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\Santri.php(104): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->simpan()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-21 04:10:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-21 04:10:48 --> mysqli_sql_exception: Unknown column 'nis' in 'where clause' in C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\terbaru\TPQ\system\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\terbaru\TPQ\system\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('411233160549150...', 'nis', Array, NULL, 'nism')
+#6 C:\xampp\htdocs\terbaru\TPQ\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nism', 'Nism', '411233160549150...', Array, Array)
+#7 C:\xampp\htdocs\terbaru\TPQ\system\Controller.php(152): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\terbaru\TPQ\app\Controllers\Santri.php(104): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(941): App\Controllers\Santri->simpan()
+#10 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+#11 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\terbaru\TPQ\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\terbaru\TPQ\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-10-21 04:10:48 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nis' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `santri`
+WHERE `nis` = :nis:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('411233160549150133', 'nis', [...], null, 'nism')
+ 4 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nism', 'Nism', '411233160549150133', [...], [...])
+ 5 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Santri.php(104): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->simpan()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-10-21 04:10:48 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nis' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `santri`
+WHERE `nis` = :nis:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('411233160549150133', 'nis', [...], null, 'nism')
+ 6 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nism', 'Nism', '411233160549150133', [...], [...])
+ 7 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH\Controllers\Santri.php(104): CodeIgniter\Controller->validate([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->simpan()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-10-21 04:10:48 --> [Caused by] mysqli_sql_exception: Unknown column 'nis' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `santri`
+WHERE `nis` = :nis:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('411233160549150133', 'nis', [...], null, 'nism')
+ 7 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nism', 'Nism', '411233160549150133', [...], [...])
+ 8 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\Santri.php(104): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->simpan()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-21 04:10:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-21 04:10:49 --> mysqli_sql_exception: Unknown column 'nis' in 'where clause' in C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\terbaru\TPQ\system\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\terbaru\TPQ\system\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('411233160549150...', 'nis', Array, NULL, 'nism')
+#6 C:\xampp\htdocs\terbaru\TPQ\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nism', 'Nism', '411233160549150...', Array, Array)
+#7 C:\xampp\htdocs\terbaru\TPQ\system\Controller.php(152): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\terbaru\TPQ\app\Controllers\Santri.php(104): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(941): App\Controllers\Santri->simpan()
+#10 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+#11 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\terbaru\TPQ\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\terbaru\TPQ\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-10-21 04:10:49 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nis' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `santri`
+WHERE `nis` = :nis:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('411233160549150133', 'nis', [...], null, 'nism')
+ 4 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nism', 'Nism', '411233160549150133', [...], [...])
+ 5 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Santri.php(104): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->simpan()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-10-21 04:10:49 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nis' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `santri`
+WHERE `nis` = :nis:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('411233160549150133', 'nis', [...], null, 'nism')
+ 6 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nism', 'Nism', '411233160549150133', [...], [...])
+ 7 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH\Controllers\Santri.php(104): CodeIgniter\Controller->validate([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->simpan()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-10-21 04:10:49 --> [Caused by] mysqli_sql_exception: Unknown column 'nis' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `santri`
+WHERE `nis` = :nis:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('411233160549150133', 'nis', [...], null, 'nism')
+ 7 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nism', 'Nism', '411233160549150133', [...], [...])
+ 8 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\Santri.php(104): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->simpan()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-21 04:10:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-21 04:10:49 --> mysqli_sql_exception: Unknown column 'nis' in 'where clause' in C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\terbaru\TPQ\system\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\terbaru\TPQ\system\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('411233160549150...', 'nis', Array, NULL, 'nism')
+#6 C:\xampp\htdocs\terbaru\TPQ\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nism', 'Nism', '411233160549150...', Array, Array)
+#7 C:\xampp\htdocs\terbaru\TPQ\system\Controller.php(152): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\terbaru\TPQ\app\Controllers\Santri.php(104): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(941): App\Controllers\Santri->simpan()
+#10 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+#11 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\terbaru\TPQ\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\terbaru\TPQ\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-10-21 04:10:49 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nis' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `santri`
+WHERE `nis` = :nis:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('411233160549150133', 'nis', [...], null, 'nism')
+ 4 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nism', 'Nism', '411233160549150133', [...], [...])
+ 5 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Santri.php(104): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->simpan()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-10-21 04:10:49 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nis' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `santri`
+WHERE `nis` = :nis:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('411233160549150133', 'nis', [...], null, 'nism')
+ 6 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nism', 'Nism', '411233160549150133', [...], [...])
+ 7 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH\Controllers\Santri.php(104): CodeIgniter\Controller->validate([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->simpan()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-10-21 04:10:49 --> [Caused by] mysqli_sql_exception: Unknown column 'nis' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `santri`
+WHERE `nis` = :nis:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('411233160549150133', 'nis', [...], null, 'nism')
+ 7 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nism', 'Nism', '411233160549150133', [...], [...])
+ 8 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\Santri.php(104): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->simpan()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-21 04:10:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-21 04:10:50 --> mysqli_sql_exception: Unknown column 'nis' in 'where clause' in C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\terbaru\TPQ\system\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\terbaru\TPQ\system\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('411233160549150...', 'nis', Array, NULL, 'nism')
+#6 C:\xampp\htdocs\terbaru\TPQ\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nism', 'Nism', '411233160549150...', Array, Array)
+#7 C:\xampp\htdocs\terbaru\TPQ\system\Controller.php(152): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\terbaru\TPQ\app\Controllers\Santri.php(104): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(941): App\Controllers\Santri->simpan()
+#10 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+#11 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\terbaru\TPQ\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\terbaru\TPQ\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-10-21 04:10:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nis' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `santri`
+WHERE `nis` = :nis:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('411233160549150133', 'nis', [...], null, 'nism')
+ 4 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nism', 'Nism', '411233160549150133', [...], [...])
+ 5 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Santri.php(104): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->simpan()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-10-21 04:10:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nis' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `santri`
+WHERE `nis` = :nis:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('411233160549150133', 'nis', [...], null, 'nism')
+ 6 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nism', 'Nism', '411233160549150133', [...], [...])
+ 7 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH\Controllers\Santri.php(104): CodeIgniter\Controller->validate([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->simpan()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-10-21 04:10:50 --> [Caused by] mysqli_sql_exception: Unknown column 'nis' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `santri`
+WHERE `nis` = :nis:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('411233160549150133', 'nis', [...], null, 'nism')
+ 7 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nism', 'Nism', '411233160549150133', [...], [...])
+ 8 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\Santri.php(104): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->simpan()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-21 04:10:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-21 04:10:50 --> mysqli_sql_exception: Unknown column 'nis' in 'where clause' in C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\terbaru\TPQ\system\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\terbaru\TPQ\system\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('411233160549150...', 'nis', Array, NULL, 'nism')
+#6 C:\xampp\htdocs\terbaru\TPQ\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nism', 'Nism', '411233160549150...', Array, Array)
+#7 C:\xampp\htdocs\terbaru\TPQ\system\Controller.php(152): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\terbaru\TPQ\app\Controllers\Santri.php(104): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(941): App\Controllers\Santri->simpan()
+#10 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+#11 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\terbaru\TPQ\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\terbaru\TPQ\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-10-21 04:10:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nis' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `santri`
+WHERE `nis` = :nis:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('411233160549150133', 'nis', [...], null, 'nism')
+ 4 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nism', 'Nism', '411233160549150133', [...], [...])
+ 5 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Santri.php(104): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->simpan()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-10-21 04:10:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nis' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `santri`
+WHERE `nis` = :nis:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('411233160549150133', 'nis', [...], null, 'nism')
+ 6 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nism', 'Nism', '411233160549150133', [...], [...])
+ 7 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH\Controllers\Santri.php(104): CodeIgniter\Controller->validate([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->simpan()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-10-21 04:10:50 --> [Caused by] mysqli_sql_exception: Unknown column 'nis' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `santri`
+WHERE `nis` = :nis:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('411233160549150133', 'nis', [...], null, 'nism')
+ 7 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nism', 'Nism', '411233160549150133', [...], [...])
+ 8 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\Santri.php(104): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->simpan()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-21 04:10:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-21 04:10:54 --> mysqli_sql_exception: Unknown column 'nis' in 'where clause' in C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\terbaru\TPQ\system\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\terbaru\TPQ\system\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('411233160549150...', 'nis', Array, NULL, 'nism')
+#6 C:\xampp\htdocs\terbaru\TPQ\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nism', 'Nism', '411233160549150...', Array, Array)
+#7 C:\xampp\htdocs\terbaru\TPQ\system\Controller.php(152): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\terbaru\TPQ\app\Controllers\Santri.php(104): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(941): App\Controllers\Santri->simpan()
+#10 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+#11 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\terbaru\TPQ\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\terbaru\TPQ\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-10-21 04:10:54 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nis' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `santri`
+WHERE `nis` = :nis:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('411233160549150133', 'nis', [...], null, 'nism')
+ 4 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nism', 'Nism', '411233160549150133', [...], [...])
+ 5 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Santri.php(104): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->simpan()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-10-21 04:10:54 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nis' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `santri`
+WHERE `nis` = :nis:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('411233160549150133', 'nis', [...], null, 'nism')
+ 6 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nism', 'Nism', '411233160549150133', [...], [...])
+ 7 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH\Controllers\Santri.php(104): CodeIgniter\Controller->validate([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->simpan()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-10-21 04:10:54 --> [Caused by] mysqli_sql_exception: Unknown column 'nis' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `santri`
+WHERE `nis` = :nis:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('411233160549150133', 'nis', [...], null, 'nism')
+ 7 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nism', 'Nism', '411233160549150133', [...], [...])
+ 8 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\Santri.php(104): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->simpan()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-21 04:10:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-21 04:10:54 --> mysqli_sql_exception: Unknown column 'nis' in 'where clause' in C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\terbaru\TPQ\system\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\terbaru\TPQ\system\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('411233160549150...', 'nis', Array, NULL, 'nism')
+#6 C:\xampp\htdocs\terbaru\TPQ\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nism', 'Nism', '411233160549150...', Array, Array)
+#7 C:\xampp\htdocs\terbaru\TPQ\system\Controller.php(152): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\terbaru\TPQ\app\Controllers\Santri.php(104): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(941): App\Controllers\Santri->simpan()
+#10 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+#11 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\terbaru\TPQ\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\terbaru\TPQ\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-10-21 04:10:54 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nis' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `santri`
+WHERE `nis` = :nis:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('411233160549150133', 'nis', [...], null, 'nism')
+ 4 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nism', 'Nism', '411233160549150133', [...], [...])
+ 5 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Santri.php(104): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->simpan()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-10-21 04:10:54 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nis' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `santri`
+WHERE `nis` = :nis:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('411233160549150133', 'nis', [...], null, 'nism')
+ 6 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nism', 'Nism', '411233160549150133', [...], [...])
+ 7 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH\Controllers\Santri.php(104): CodeIgniter\Controller->validate([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->simpan()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-10-21 04:10:54 --> [Caused by] mysqli_sql_exception: Unknown column 'nis' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `santri`
+WHERE `nis` = :nis:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('411233160549150133', 'nis', [...], null, 'nism')
+ 7 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nism', 'Nism', '411233160549150133', [...], [...])
+ 8 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\Santri.php(104): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->simpan()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-21 04:10:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-21 04:10:55 --> mysqli_sql_exception: Unknown column 'nis' in 'where clause' in C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\terbaru\TPQ\system\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\terbaru\TPQ\system\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('411233160549150...', 'nis', Array, NULL, 'nism')
+#6 C:\xampp\htdocs\terbaru\TPQ\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nism', 'Nism', '411233160549150...', Array, Array)
+#7 C:\xampp\htdocs\terbaru\TPQ\system\Controller.php(152): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\terbaru\TPQ\app\Controllers\Santri.php(104): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(941): App\Controllers\Santri->simpan()
+#10 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+#11 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\terbaru\TPQ\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\terbaru\TPQ\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-10-21 04:10:55 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nis' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `santri`
+WHERE `nis` = :nis:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('411233160549150133', 'nis', [...], null, 'nism')
+ 4 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nism', 'Nism', '411233160549150133', [...], [...])
+ 5 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Santri.php(104): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->simpan()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-10-21 04:10:55 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nis' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `santri`
+WHERE `nis` = :nis:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('411233160549150133', 'nis', [...], null, 'nism')
+ 6 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nism', 'Nism', '411233160549150133', [...], [...])
+ 7 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH\Controllers\Santri.php(104): CodeIgniter\Controller->validate([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->simpan()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-10-21 04:10:55 --> [Caused by] mysqli_sql_exception: Unknown column 'nis' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `santri`
+WHERE `nis` = :nis:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('411233160549150133', 'nis', [...], null, 'nism')
+ 7 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nism', 'Nism', '411233160549150133', [...], [...])
+ 8 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\Santri.php(104): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->simpan()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-21 04:10:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-21 04:10:56 --> mysqli_sql_exception: Unknown column 'nis' in 'where clause' in C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\terbaru\TPQ\system\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\terbaru\TPQ\system\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('411233160549150...', 'nis', Array, NULL, 'nism')
+#6 C:\xampp\htdocs\terbaru\TPQ\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nism', 'Nism', '411233160549150...', Array, Array)
+#7 C:\xampp\htdocs\terbaru\TPQ\system\Controller.php(152): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\terbaru\TPQ\app\Controllers\Santri.php(104): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(941): App\Controllers\Santri->simpan()
+#10 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+#11 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\terbaru\TPQ\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\terbaru\TPQ\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-10-21 04:10:56 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nis' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `santri`
+WHERE `nis` = :nis:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('411233160549150133', 'nis', [...], null, 'nism')
+ 4 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nism', 'Nism', '411233160549150133', [...], [...])
+ 5 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Santri.php(104): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->simpan()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-10-21 04:10:56 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nis' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `santri`
+WHERE `nis` = :nis:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('411233160549150133', 'nis', [...], null, 'nism')
+ 6 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nism', 'Nism', '411233160549150133', [...], [...])
+ 7 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH\Controllers\Santri.php(104): CodeIgniter\Controller->validate([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->simpan()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-10-21 04:10:56 --> [Caused by] mysqli_sql_exception: Unknown column 'nis' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `santri`
+WHERE `nis` = :nis:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('411233160549150133', 'nis', [...], null, 'nism')
+ 7 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nism', 'Nism', '411233160549150133', [...], [...])
+ 8 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\Santri.php(104): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->simpan()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-21 04:10:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-21 04:10:57 --> mysqli_sql_exception: Unknown column 'nis' in 'where clause' in C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\terbaru\TPQ\system\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\terbaru\TPQ\system\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('411233160549150...', 'nis', Array, NULL, 'nism')
+#6 C:\xampp\htdocs\terbaru\TPQ\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nism', 'Nism', '411233160549150...', Array, Array)
+#7 C:\xampp\htdocs\terbaru\TPQ\system\Controller.php(152): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\terbaru\TPQ\app\Controllers\Santri.php(104): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(941): App\Controllers\Santri->simpan()
+#10 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+#11 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\terbaru\TPQ\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\terbaru\TPQ\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-10-21 04:10:57 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nis' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `santri`
+WHERE `nis` = :nis:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('411233160549150133', 'nis', [...], null, 'nism')
+ 4 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nism', 'Nism', '411233160549150133', [...], [...])
+ 5 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Santri.php(104): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->simpan()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-10-21 04:10:57 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nis' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `santri`
+WHERE `nis` = :nis:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('411233160549150133', 'nis', [...], null, 'nism')
+ 6 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nism', 'Nism', '411233160549150133', [...], [...])
+ 7 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH\Controllers\Santri.php(104): CodeIgniter\Controller->validate([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->simpan()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-10-21 04:10:57 --> [Caused by] mysqli_sql_exception: Unknown column 'nis' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `santri`
+WHERE `nis` = :nis:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('411233160549150133', 'nis', [...], null, 'nism')
+ 7 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nism', 'Nism', '411233160549150133', [...], [...])
+ 8 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\Santri.php(104): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->simpan()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-21 04:10:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-21 04:10:57 --> mysqli_sql_exception: Unknown column 'nis' in 'where clause' in C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\terbaru\TPQ\system\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\terbaru\TPQ\system\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('411233160549150...', 'nis', Array, NULL, 'nism')
+#6 C:\xampp\htdocs\terbaru\TPQ\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nism', 'Nism', '411233160549150...', Array, Array)
+#7 C:\xampp\htdocs\terbaru\TPQ\system\Controller.php(152): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\terbaru\TPQ\app\Controllers\Santri.php(104): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(941): App\Controllers\Santri->simpan()
+#10 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+#11 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\terbaru\TPQ\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\terbaru\TPQ\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-10-21 04:10:57 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nis' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `santri`
+WHERE `nis` = :nis:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('411233160549150133', 'nis', [...], null, 'nism')
+ 4 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nism', 'Nism', '411233160549150133', [...], [...])
+ 5 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Santri.php(104): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->simpan()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-10-21 04:10:57 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nis' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `santri`
+WHERE `nis` = :nis:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('411233160549150133', 'nis', [...], null, 'nism')
+ 6 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nism', 'Nism', '411233160549150133', [...], [...])
+ 7 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH\Controllers\Santri.php(104): CodeIgniter\Controller->validate([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->simpan()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-10-21 04:10:57 --> [Caused by] mysqli_sql_exception: Unknown column 'nis' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `santri`
+WHERE `nis` = :nis:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('411233160549150133', 'nis', [...], null, 'nism')
+ 7 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nism', 'Nism', '411233160549150133', [...], [...])
+ 8 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\Santri.php(104): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->simpan()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-21 04:10:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-21 04:10:57 --> mysqli_sql_exception: Unknown column 'nis' in 'where clause' in C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\terbaru\TPQ\system\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\terbaru\TPQ\system\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('411233160549150...', 'nis', Array, NULL, 'nism')
+#6 C:\xampp\htdocs\terbaru\TPQ\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nism', 'Nism', '411233160549150...', Array, Array)
+#7 C:\xampp\htdocs\terbaru\TPQ\system\Controller.php(152): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\terbaru\TPQ\app\Controllers\Santri.php(104): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(941): App\Controllers\Santri->simpan()
+#10 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+#11 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\terbaru\TPQ\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\terbaru\TPQ\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-10-21 04:10:57 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nis' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `santri`
+WHERE `nis` = :nis:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('411233160549150133', 'nis', [...], null, 'nism')
+ 4 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nism', 'Nism', '411233160549150133', [...], [...])
+ 5 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Santri.php(104): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->simpan()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-10-21 04:10:57 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nis' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `santri`
+WHERE `nis` = :nis:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('411233160549150133', 'nis', [...], null, 'nism')
+ 6 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nism', 'Nism', '411233160549150133', [...], [...])
+ 7 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH\Controllers\Santri.php(104): CodeIgniter\Controller->validate([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->simpan()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-10-21 04:10:57 --> [Caused by] mysqli_sql_exception: Unknown column 'nis' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `santri`
+WHERE `nis` = \'411233160549150133\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `santri`
+WHERE `nis` = :nis:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('411233160549150133', 'nis', [...], null, 'nism')
+ 7 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nism', 'Nism', '411233160549150133', [...], [...])
+ 8 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\Santri.php(104): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->simpan()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-21 04:11:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:11:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:11:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:11:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:12:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:12:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:12:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:12:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:12:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:12:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:12:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:12:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:12:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:14:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:14:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:14:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:15:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:15:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:17:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:17:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

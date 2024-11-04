@@ -1,0 +1,928 @@
+INFO - 2024-10-08 11:41:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 11:41:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 11:41:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 11:42:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 11:42:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-08 11:42:42 --> ErrorException: Undefined index: jekel
+in APPPATH\Views\auth\pengajar\list.php on line 39.
+ 1 APPPATH\Views\auth\pengajar\list.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: jekel', 'C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Views\\auth\\pengajar\\list.php', 39, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Views\\auth\\pengajar\\list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('auth/pengajar/list', [], true)
+ 5 APPPATH\Controllers\Pengajar.php(32): view('auth/pengajar/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pengajar->getdata()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajar))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-08 11:42:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 11:42:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 11:44:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 11:44:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 11:44:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 11:44:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 11:44:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 11:44:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 11:44:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 11:44:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 11:44:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 11:44:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-08 11:44:45 --> ErrorException: Undefined index: jekel
+in APPPATH\Views\auth\pengajar\list.php on line 39.
+ 1 APPPATH\Views\auth\pengajar\list.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: jekel', 'C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Views\\auth\\pengajar\\list.php', 39, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Views\\auth\\pengajar\\list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('auth/pengajar/list', [], true)
+ 5 APPPATH\Controllers\Pengajar.php(32): view('auth/pengajar/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pengajar->getdata()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajar))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-08 11:46:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 11:46:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-08 11:46:23 --> ErrorException: Undefined index: jekel
+in APPPATH\Views\auth\pengajar\list.php on line 39.
+ 1 APPPATH\Views\auth\pengajar\list.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: jekel', 'C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Views\\auth\\pengajar\\list.php', 39, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Views\\auth\\pengajar\\list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('auth/pengajar/list', [], true)
+ 5 APPPATH\Controllers\Pengajar.php(32): view('auth/pengajar/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pengajar->getdata()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajar))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-08 11:46:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 11:46:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-08 11:46:42 --> ErrorException: Undefined index: jekel
+in APPPATH\Views\auth\pengajar\list.php on line 39.
+ 1 APPPATH\Views\auth\pengajar\list.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: jekel', 'C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Views\\auth\\pengajar\\list.php', 39, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Views\\auth\\pengajar\\list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('auth/pengajar/list', [], true)
+ 5 APPPATH\Controllers\Pengajar.php(32): view('auth/pengajar/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pengajar->getdata()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajar))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-08 11:46:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 11:46:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 11:46:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-08 11:46:58 --> ErrorException: Undefined property: App\Controllers\Santri::$ustadz
+in APPPATH\Controllers\Santri.php on line 483.
+ 1 APPPATH\Controllers\Santri.php(483): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Santri::$ustadz', 'C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Controllers\\Santri.php', 483, [])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->formkelas()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-08 11:47:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-08 11:47:00 --> ErrorException: Undefined property: App\Controllers\Santri::$ustadz
+in APPPATH\Controllers\Santri.php on line 483.
+ 1 APPPATH\Controllers\Santri.php(483): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Santri::$ustadz', 'C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Controllers\\Santri.php', 483, [])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->formkelas()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-08 11:47:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-08 11:47:02 --> ErrorException: Undefined property: App\Controllers\Santri::$ustadz
+in APPPATH\Controllers\Santri.php on line 483.
+ 1 APPPATH\Controllers\Santri.php(483): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Santri::$ustadz', 'C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Controllers\\Santri.php', 483, [])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->formkelas()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-08 11:47:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-08 11:47:02 --> ErrorException: Undefined property: App\Controllers\Santri::$ustadz
+in APPPATH\Controllers\Santri.php on line 483.
+ 1 APPPATH\Controllers\Santri.php(483): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Santri::$ustadz', 'C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Controllers\\Santri.php', 483, [])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->formkelas()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-08 11:47:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-08 11:47:02 --> ErrorException: Undefined property: App\Controllers\Santri::$ustadz
+in APPPATH\Controllers\Santri.php on line 483.
+ 1 APPPATH\Controllers\Santri.php(483): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Santri::$ustadz', 'C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Controllers\\Santri.php', 483, [])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->formkelas()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-08 11:47:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-08 11:47:04 --> ErrorException: Undefined property: App\Controllers\Santri::$ustadz
+in APPPATH\Controllers\Santri.php on line 483.
+ 1 APPPATH\Controllers\Santri.php(483): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Santri::$ustadz', 'C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Controllers\\Santri.php', 483, [])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->formkelas()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-08 11:47:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-08 11:47:04 --> ErrorException: Undefined property: App\Controllers\Santri::$ustadz
+in APPPATH\Controllers\Santri.php on line 483.
+ 1 APPPATH\Controllers\Santri.php(483): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Santri::$ustadz', 'C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Controllers\\Santri.php', 483, [])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->formkelas()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-08 11:47:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-08 11:47:08 --> ErrorException: Undefined property: App\Controllers\Santri::$ustadz
+in APPPATH\Controllers\Santri.php on line 483.
+ 1 APPPATH\Controllers\Santri.php(483): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Santri::$ustadz', 'C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Controllers\\Santri.php', 483, [])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->formkelas()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-08 11:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 11:51:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-08 11:51:09 --> mysqli_sql_exception: Unknown column 'kelas.pengajar_id' in 'on clause' in C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\terbaru\TPQ\system\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\terbaru\TPQ\app\Models\Modelkelas.php(26): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\terbaru\TPQ\app\Controllers\Santri.php(469): App\Models\Modelkelas->listjoin()
+#7 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(941): App\Controllers\Santri->getkelas()
+#8 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+#9 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\terbaru\TPQ\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\terbaru\TPQ\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-10-08 11:51:09 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'kelas.pengajar_id' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kelas`
+JOIN `pengajar` ON `pengajar`.`pengajar_id` = `kelas`.`pengajar_id`
+ORDER BY `kelas_id` ASC', [], false)
+ 2 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Models\Modelkelas.php(26): CodeIgniter\Model->__call('get', [])
+ 4 APPPATH\Controllers\Santri.php(469): App\Models\Modelkelas->listjoin()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->getkelas()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-10-08 11:51:09 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'kelas.pengajar_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `kelas`
+JOIN `pengajar` ON `pengajar`.`pengajar_id` = `kelas`.`pengajar_id`
+ORDER BY `kelas_id` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `kelas`
+JOIN `pengajar` ON `pengajar`.`pengajar_id` = `kelas`.`pengajar_id`
+ORDER BY `kelas_id` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kelas`
+JOIN `pengajar` ON `pengajar`.`pengajar_id` = `kelas`.`pengajar_id`
+ORDER BY `kelas_id` ASC', [], false)
+ 4 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Models\Modelkelas.php(26): CodeIgniter\Model->__call('get', [])
+ 6 APPPATH\Controllers\Santri.php(469): App\Models\Modelkelas->listjoin()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->getkelas()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-10-08 11:51:09 --> [Caused by] mysqli_sql_exception: Unknown column 'kelas.pengajar_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `kelas`
+JOIN `pengajar` ON `pengajar`.`pengajar_id` = `kelas`.`pengajar_id`
+ORDER BY `kelas_id` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `kelas`
+JOIN `pengajar` ON `pengajar`.`pengajar_id` = `kelas`.`pengajar_id`
+ORDER BY `kelas_id` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `kelas`
+JOIN `pengajar` ON `pengajar`.`pengajar_id` = `kelas`.`pengajar_id`
+ORDER BY `kelas_id` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kelas`
+JOIN `pengajar` ON `pengajar`.`pengajar_id` = `kelas`.`pengajar_id`
+ORDER BY `kelas_id` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\Modelkelas.php(26): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\Santri.php(469): App\Models\Modelkelas->listjoin()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->getkelas()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-08 11:51:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-08 11:51:12 --> ErrorException: Undefined property: App\Controllers\Santri::$ustadz
+in APPPATH\Controllers\Santri.php on line 483.
+ 1 APPPATH\Controllers\Santri.php(483): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Santri::$ustadz', 'C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Controllers\\Santri.php', 483, [])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->formkelas()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-08 11:51:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-08 11:51:13 --> ErrorException: Undefined property: App\Controllers\Santri::$ustadz
+in APPPATH\Controllers\Santri.php on line 483.
+ 1 APPPATH\Controllers\Santri.php(483): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Santri::$ustadz', 'C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Controllers\\Santri.php', 483, [])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->formkelas()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-08 11:51:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-08 11:51:13 --> ErrorException: Undefined property: App\Controllers\Santri::$ustadz
+in APPPATH\Controllers\Santri.php on line 483.
+ 1 APPPATH\Controllers\Santri.php(483): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Santri::$ustadz', 'C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Controllers\\Santri.php', 483, [])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->formkelas()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-08 11:51:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-08 11:51:14 --> ErrorException: Undefined property: App\Controllers\Santri::$ustadz
+in APPPATH\Controllers\Santri.php on line 483.
+ 1 APPPATH\Controllers\Santri.php(483): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Santri::$ustadz', 'C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Controllers\\Santri.php', 483, [])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->formkelas()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-08 11:51:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-08 11:51:15 --> ErrorException: Undefined property: App\Controllers\Santri::$ustadz
+in APPPATH\Controllers\Santri.php on line 483.
+ 1 APPPATH\Controllers\Santri.php(483): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Santri::$ustadz', 'C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Controllers\\Santri.php', 483, [])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->formkelas()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-08 11:51:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-08 11:51:15 --> ErrorException: Undefined property: App\Controllers\Santri::$ustadz
+in APPPATH\Controllers\Santri.php on line 483.
+ 1 APPPATH\Controllers\Santri.php(483): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Santri::$ustadz', 'C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Controllers\\Santri.php', 483, [])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->formkelas()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-08 11:51:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-08 11:51:16 --> ErrorException: Undefined property: App\Controllers\Santri::$ustadz
+in APPPATH\Controllers\Santri.php on line 483.
+ 1 APPPATH\Controllers\Santri.php(483): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Santri::$ustadz', 'C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Controllers\\Santri.php', 483, [])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->formkelas()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-08 11:51:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-08 11:51:16 --> ErrorException: Undefined property: App\Controllers\Santri::$ustadz
+in APPPATH\Controllers\Santri.php on line 483.
+ 1 APPPATH\Controllers\Santri.php(483): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Santri::$ustadz', 'C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Controllers\\Santri.php', 483, [])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->formkelas()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-08 11:51:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-08 11:51:16 --> ErrorException: Undefined property: App\Controllers\Santri::$ustadz
+in APPPATH\Controllers\Santri.php on line 483.
+ 1 APPPATH\Controllers\Santri.php(483): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Santri::$ustadz', 'C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Controllers\\Santri.php', 483, [])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->formkelas()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-08 11:51:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-08 11:51:19 --> ErrorException: Undefined property: App\Controllers\Santri::$ustadz
+in APPPATH\Controllers\Santri.php on line 483.
+ 1 APPPATH\Controllers\Santri.php(483): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Santri::$ustadz', 'C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Controllers\\Santri.php', 483, [])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->formkelas()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-08 11:51:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-08 11:51:19 --> ErrorException: Undefined property: App\Controllers\Santri::$ustadz
+in APPPATH\Controllers\Santri.php on line 483.
+ 1 APPPATH\Controllers\Santri.php(483): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Santri::$ustadz', 'C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Controllers\\Santri.php', 483, [])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->formkelas()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-08 11:51:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-08 11:51:19 --> ErrorException: Undefined property: App\Controllers\Santri::$ustadz
+in APPPATH\Controllers\Santri.php on line 483.
+ 1 APPPATH\Controllers\Santri.php(483): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Santri::$ustadz', 'C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Controllers\\Santri.php', 483, [])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->formkelas()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-08 11:54:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 11:54:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-08 11:54:23 --> mysqli_sql_exception: Unknown column 'kelas.pengajar_id' in 'on clause' in C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\terbaru\TPQ\system\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\terbaru\TPQ\app\Models\Modelkelas.php(26): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\terbaru\TPQ\app\Controllers\Santri.php(469): App\Models\Modelkelas->listjoin()
+#7 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(941): App\Controllers\Santri->getkelas()
+#8 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+#9 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\terbaru\TPQ\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\terbaru\TPQ\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-10-08 11:54:23 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'kelas.pengajar_id' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kelas`
+JOIN `pengajar` ON `pengajar`.`pengajar_id` = `kelas`.`pengajar_id`
+ORDER BY `kelas_id` ASC', [], false)
+ 2 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Models\Modelkelas.php(26): CodeIgniter\Model->__call('get', [])
+ 4 APPPATH\Controllers\Santri.php(469): App\Models\Modelkelas->listjoin()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->getkelas()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-10-08 11:54:23 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'kelas.pengajar_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `kelas`
+JOIN `pengajar` ON `pengajar`.`pengajar_id` = `kelas`.`pengajar_id`
+ORDER BY `kelas_id` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `kelas`
+JOIN `pengajar` ON `pengajar`.`pengajar_id` = `kelas`.`pengajar_id`
+ORDER BY `kelas_id` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kelas`
+JOIN `pengajar` ON `pengajar`.`pengajar_id` = `kelas`.`pengajar_id`
+ORDER BY `kelas_id` ASC', [], false)
+ 4 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Models\Modelkelas.php(26): CodeIgniter\Model->__call('get', [])
+ 6 APPPATH\Controllers\Santri.php(469): App\Models\Modelkelas->listjoin()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->getkelas()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-10-08 11:54:23 --> [Caused by] mysqli_sql_exception: Unknown column 'kelas.pengajar_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `kelas`
+JOIN `pengajar` ON `pengajar`.`pengajar_id` = `kelas`.`pengajar_id`
+ORDER BY `kelas_id` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `kelas`
+JOIN `pengajar` ON `pengajar`.`pengajar_id` = `kelas`.`pengajar_id`
+ORDER BY `kelas_id` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `kelas`
+JOIN `pengajar` ON `pengajar`.`pengajar_id` = `kelas`.`pengajar_id`
+ORDER BY `kelas_id` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kelas`
+JOIN `pengajar` ON `pengajar`.`pengajar_id` = `kelas`.`pengajar_id`
+ORDER BY `kelas_id` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\Modelkelas.php(26): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\Santri.php(469): App\Models\Modelkelas->listjoin()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->getkelas()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-08 11:54:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 11:54:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-08 11:54:39 --> mysqli_sql_exception: Unknown column 'pengajar_id' in 'where clause' in C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\terbaru\TPQ\system\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\terbaru\TPQ\system\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('30', 'pengajar_id', Array, NULL, 'pengajar_id')
+#6 C:\xampp\htdocs\terbaru\TPQ\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('pengajar_id', 'Wali kelas', '30', Array, Array)
+#7 C:\xampp\htdocs\terbaru\TPQ\system\Controller.php(152): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\terbaru\TPQ\app\Controllers\Santri.php(498): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(941): App\Controllers\Santri->simpankelas()
+#10 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+#11 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\terbaru\TPQ\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\terbaru\TPQ\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-10-08 11:54:39 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pengajar_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `kelas`
+WHERE `pengajar_id` = :pengajar_id:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('30', 'pengajar_id', [...], null, 'pengajar_id')
+ 4 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('pengajar_id', 'Wali kelas', '30', [...], [...])
+ 5 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Santri.php(498): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->simpankelas()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-10-08 11:54:39 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pengajar_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `kelas`
+WHERE `pengajar_id` = \'30\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `kelas`
+WHERE `pengajar_id` = \'30\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `kelas`
+WHERE `pengajar_id` = :pengajar_id:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('30', 'pengajar_id', [...], null, 'pengajar_id')
+ 6 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('pengajar_id', 'Wali kelas', '30', [...], [...])
+ 7 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH\Controllers\Santri.php(498): CodeIgniter\Controller->validate([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->simpankelas()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-10-08 11:54:39 --> [Caused by] mysqli_sql_exception: Unknown column 'pengajar_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1
+FROM `kelas`
+WHERE `pengajar_id` = \'30\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `kelas`
+WHERE `pengajar_id` = \'30\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `kelas`
+WHERE `pengajar_id` = \'30\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `kelas`
+WHERE `pengajar_id` = :pengajar_id:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('30', 'pengajar_id', [...], null, 'pengajar_id')
+ 7 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('pengajar_id', 'Wali kelas', '30', [...], [...])
+ 8 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\Santri.php(498): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->simpankelas()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-08 11:54:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-08 11:54:40 --> mysqli_sql_exception: Unknown column 'pengajar_id' in 'where clause' in C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\terbaru\TPQ\system\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\terbaru\TPQ\system\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('30', 'pengajar_id', Array, NULL, 'pengajar_id')
+#6 C:\xampp\htdocs\terbaru\TPQ\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('pengajar_id', 'Wali kelas', '30', Array, Array)
+#7 C:\xampp\htdocs\terbaru\TPQ\system\Controller.php(152): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\terbaru\TPQ\app\Controllers\Santri.php(498): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(941): App\Controllers\Santri->simpankelas()
+#10 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+#11 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\terbaru\TPQ\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\terbaru\TPQ\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-10-08 11:54:40 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pengajar_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `kelas`
+WHERE `pengajar_id` = :pengajar_id:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('30', 'pengajar_id', [...], null, 'pengajar_id')
+ 4 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('pengajar_id', 'Wali kelas', '30', [...], [...])
+ 5 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Santri.php(498): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->simpankelas()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-10-08 11:54:40 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pengajar_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `kelas`
+WHERE `pengajar_id` = \'30\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `kelas`
+WHERE `pengajar_id` = \'30\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `kelas`
+WHERE `pengajar_id` = :pengajar_id:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('30', 'pengajar_id', [...], null, 'pengajar_id')
+ 6 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('pengajar_id', 'Wali kelas', '30', [...], [...])
+ 7 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH\Controllers\Santri.php(498): CodeIgniter\Controller->validate([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->simpankelas()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-10-08 11:54:40 --> [Caused by] mysqli_sql_exception: Unknown column 'pengajar_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1
+FROM `kelas`
+WHERE `pengajar_id` = \'30\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `kelas`
+WHERE `pengajar_id` = \'30\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `kelas`
+WHERE `pengajar_id` = \'30\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `kelas`
+WHERE `pengajar_id` = :pengajar_id:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('30', 'pengajar_id', [...], null, 'pengajar_id')
+ 7 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('pengajar_id', 'Wali kelas', '30', [...], [...])
+ 8 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\Santri.php(498): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->simpankelas()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-08 11:54:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-08 11:54:42 --> mysqli_sql_exception: Unknown column 'pengajar_id' in 'where clause' in C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\terbaru\TPQ\system\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\terbaru\TPQ\system\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('30', 'pengajar_id', Array, NULL, 'pengajar_id')
+#6 C:\xampp\htdocs\terbaru\TPQ\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('pengajar_id', 'Wali kelas', '30', Array, Array)
+#7 C:\xampp\htdocs\terbaru\TPQ\system\Controller.php(152): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\terbaru\TPQ\app\Controllers\Santri.php(498): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(941): App\Controllers\Santri->simpankelas()
+#10 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+#11 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\terbaru\TPQ\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\terbaru\TPQ\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-10-08 11:54:42 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pengajar_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `kelas`
+WHERE `pengajar_id` = :pengajar_id:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('30', 'pengajar_id', [...], null, 'pengajar_id')
+ 4 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('pengajar_id', 'Wali kelas', '30', [...], [...])
+ 5 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Santri.php(498): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->simpankelas()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-10-08 11:54:42 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pengajar_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `kelas`
+WHERE `pengajar_id` = \'30\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `kelas`
+WHERE `pengajar_id` = \'30\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `kelas`
+WHERE `pengajar_id` = :pengajar_id:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('30', 'pengajar_id', [...], null, 'pengajar_id')
+ 6 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('pengajar_id', 'Wali kelas', '30', [...], [...])
+ 7 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH\Controllers\Santri.php(498): CodeIgniter\Controller->validate([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->simpankelas()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-10-08 11:54:42 --> [Caused by] mysqli_sql_exception: Unknown column 'pengajar_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1
+FROM `kelas`
+WHERE `pengajar_id` = \'30\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `kelas`
+WHERE `pengajar_id` = \'30\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `kelas`
+WHERE `pengajar_id` = \'30\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `kelas`
+WHERE `pengajar_id` = :pengajar_id:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('30', 'pengajar_id', [...], null, 'pengajar_id')
+ 7 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('pengajar_id', 'Wali kelas', '30', [...], [...])
+ 8 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\Santri.php(498): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->simpankelas()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-08 11:54:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-08 11:54:42 --> mysqli_sql_exception: Unknown column 'pengajar_id' in 'where clause' in C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\terbaru\TPQ\system\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\terbaru\TPQ\system\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('30', 'pengajar_id', Array, NULL, 'pengajar_id')
+#6 C:\xampp\htdocs\terbaru\TPQ\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('pengajar_id', 'Wali kelas', '30', Array, Array)
+#7 C:\xampp\htdocs\terbaru\TPQ\system\Controller.php(152): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\terbaru\TPQ\app\Controllers\Santri.php(498): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(941): App\Controllers\Santri->simpankelas()
+#10 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+#11 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\terbaru\TPQ\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\terbaru\TPQ\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-10-08 11:54:42 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pengajar_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `kelas`
+WHERE `pengajar_id` = :pengajar_id:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('30', 'pengajar_id', [...], null, 'pengajar_id')
+ 4 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('pengajar_id', 'Wali kelas', '30', [...], [...])
+ 5 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Santri.php(498): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->simpankelas()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-10-08 11:54:42 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pengajar_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `kelas`
+WHERE `pengajar_id` = \'30\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `kelas`
+WHERE `pengajar_id` = \'30\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `kelas`
+WHERE `pengajar_id` = :pengajar_id:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('30', 'pengajar_id', [...], null, 'pengajar_id')
+ 6 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('pengajar_id', 'Wali kelas', '30', [...], [...])
+ 7 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH\Controllers\Santri.php(498): CodeIgniter\Controller->validate([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->simpankelas()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-10-08 11:54:42 --> [Caused by] mysqli_sql_exception: Unknown column 'pengajar_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1
+FROM `kelas`
+WHERE `pengajar_id` = \'30\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `kelas`
+WHERE `pengajar_id` = \'30\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `kelas`
+WHERE `pengajar_id` = \'30\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `kelas`
+WHERE `pengajar_id` = :pengajar_id:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\Rules->is_unique('30', 'pengajar_id', [...], null, 'pengajar_id')
+ 7 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('pengajar_id', 'Wali kelas', '30', [...], [...])
+ 8 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\Santri.php(498): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->simpankelas()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-08 11:54:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 11:55:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 11:56:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-08 11:56:05 --> mysqli_sql_exception: Unknown column 'kelas.pengajar_id' in 'on clause' in C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\terbaru\TPQ\system\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\terbaru\TPQ\app\Models\Modelkelas.php(26): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\terbaru\TPQ\app\Controllers\Santri.php(469): App\Models\Modelkelas->listjoin()
+#7 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(941): App\Controllers\Santri->getkelas()
+#8 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+#9 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\terbaru\TPQ\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\terbaru\TPQ\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-10-08 11:56:05 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'kelas.pengajar_id' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kelas`
+JOIN `pengajar` ON `pengajar`.`pengajar_id` = `kelas`.`pengajar_id`
+ORDER BY `kelas_id` ASC', [], false)
+ 2 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Models\Modelkelas.php(26): CodeIgniter\Model->__call('get', [])
+ 4 APPPATH\Controllers\Santri.php(469): App\Models\Modelkelas->listjoin()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->getkelas()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-10-08 11:56:05 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'kelas.pengajar_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `kelas`
+JOIN `pengajar` ON `pengajar`.`pengajar_id` = `kelas`.`pengajar_id`
+ORDER BY `kelas_id` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `kelas`
+JOIN `pengajar` ON `pengajar`.`pengajar_id` = `kelas`.`pengajar_id`
+ORDER BY `kelas_id` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kelas`
+JOIN `pengajar` ON `pengajar`.`pengajar_id` = `kelas`.`pengajar_id`
+ORDER BY `kelas_id` ASC', [], false)
+ 4 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Models\Modelkelas.php(26): CodeIgniter\Model->__call('get', [])
+ 6 APPPATH\Controllers\Santri.php(469): App\Models\Modelkelas->listjoin()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->getkelas()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-10-08 11:56:05 --> [Caused by] mysqli_sql_exception: Unknown column 'kelas.pengajar_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `kelas`
+JOIN `pengajar` ON `pengajar`.`pengajar_id` = `kelas`.`pengajar_id`
+ORDER BY `kelas_id` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `kelas`
+JOIN `pengajar` ON `pengajar`.`pengajar_id` = `kelas`.`pengajar_id`
+ORDER BY `kelas_id` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `kelas`
+JOIN `pengajar` ON `pengajar`.`pengajar_id` = `kelas`.`pengajar_id`
+ORDER BY `kelas_id` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kelas`
+JOIN `pengajar` ON `pengajar`.`pengajar_id` = `kelas`.`pengajar_id`
+ORDER BY `kelas_id` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\Modelkelas.php(26): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\Santri.php(469): App\Models\Modelkelas->listjoin()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Santri->getkelas()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-08 11:58:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 11:58:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 11:59:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 11:59:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-08 11:59:02 --> ErrorException: Undefined index: judul_kegiatan
+in APPPATH\Views\auth\pendaftar\list.php on line 19.
+ 1 APPPATH\Views\auth\pendaftar\list.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: judul_kegiatan', 'C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Views\\auth\\pendaftar\\list.php', 19, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Views\\auth\\pendaftar\\list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('auth/pendaftar/list', [], true)
+ 5 APPPATH\Controllers\Kegiatan.php(551): view('auth/pendaftar/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->getpendaftar()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-08 11:59:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 11:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 14:48:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 14:48:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 14:48:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 14:48:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 14:49:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 14:49:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 14:49:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 14:50:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-08 14:50:05 --> ErrorException: Undefined property: App\Controllers\Home::$ustadz
+in APPPATH\Controllers\Home.php on line 10.
+ 1 APPPATH\Controllers\Home.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Home::$ustadz', 'C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Controllers\\Home.php', 10, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-08 14:50:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-08 14:50:43 --> ErrorException: Undefined variable: pengurus
+in APPPATH\Views\front\layout\menu.php on line 26.
+ 1 APPPATH\Views\front\layout\menu.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: pengurus', 'C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Views\\front\\layout\\menu.php', 26, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Views\\front\\layout\\menu.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/layout/menu', [], true)
+ 5 APPPATH\Controllers\Home.php(29): view('front/layout/menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-08 14:54:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-08 14:54:43 --> ErrorException: Undefined variable: pengurus
+in APPPATH\Views\front\layout\menu.php on line 60.
+ 1 APPPATH\Views\front\layout\menu.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: pengurus', 'C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Views\\front\\layout\\menu.php', 60, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Views\\front\\layout\\menu.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/layout/menu', [], true)
+ 5 APPPATH\Controllers\Home.php(29): view('front/layout/menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-08 14:55:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-08 14:55:10 --> ErrorException: Undefined index: foto
+in APPPATH\Views\front\layout\menu.php on line 130.
+ 1 APPPATH\Views\front\layout\menu.php(130): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: foto', 'C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Views\\front\\layout\\menu.php', 130, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Views\\front\\layout\\menu.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/layout/menu', [], true)
+ 5 APPPATH\Controllers\Home.php(29): view('front/layout/menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-08 14:56:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 14:57:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 14:57:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 14:57:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 14:57:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 15:02:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 15:02:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 15:02:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 15:03:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 15:03:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 15:06:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 15:09:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 15:09:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 15:10:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 15:10:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 15:12:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 15:13:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 15:15:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 15:15:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 15:15:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 15:16:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

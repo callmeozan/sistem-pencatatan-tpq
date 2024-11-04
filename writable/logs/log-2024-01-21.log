@@ -1,0 +1,2276 @@
+INFO - 2024-01-21 11:11:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 11:12:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 11:12:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 11:12:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 11:12:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 11:12:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 11:12:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 11:12:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 11:12:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 11:12:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 11:12:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 11:12:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 11:16:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 11:16:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 11:16:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 11:54:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 11:54:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 11:54:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 11:54:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 11:55:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 11:55:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 11:55:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 11:56:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 11:56:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 11:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 11:56:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 11:56:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 11:59:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 12:00:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 12:07:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 12:07:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 12:26:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 12:26:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 12:26:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 12:26:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-21 12:26:38 --> ErrorException: Undefined variable $kegiatan_id
+in APPPATH\Views\auth\kegiatan\daftar.php on line 16.
+ 1 APPPATH\Views\auth\kegiatan\daftar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kegiatan_id', 'D:\\Project\\Website\\TPQ\\TPQ\\app\\Views\\auth\\kegiatan\\daftar.php', 16)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\Project\\Website\\TPQ\\TPQ\\app\\Views\\auth\\kegiatan\\daftar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('auth/kegiatan/daftar', [], true)
+ 5 APPPATH\Controllers\Kegiatan.php(483): view('auth/kegiatan/daftar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftar()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Project\\Website\\TPQ\\TPQ\\public\\index.php')
+INFO - 2024-01-21 12:26:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-21 12:26:49 --> ErrorException: Undefined variable $kegiatan_id
+in APPPATH\Views\auth\kegiatan\daftar.php on line 16.
+ 1 APPPATH\Views\auth\kegiatan\daftar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kegiatan_id', 'D:\\Project\\Website\\TPQ\\TPQ\\app\\Views\\auth\\kegiatan\\daftar.php', 16)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\Project\\Website\\TPQ\\TPQ\\app\\Views\\auth\\kegiatan\\daftar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('auth/kegiatan/daftar', [], true)
+ 5 APPPATH\Controllers\Kegiatan.php(483): view('auth/kegiatan/daftar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftar()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Project\\Website\\TPQ\\TPQ\\public\\index.php')
+INFO - 2024-01-21 12:27:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 12:27:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 12:27:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 12:27:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 12:27:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 12:29:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 12:29:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-21 12:29:54 --> ErrorException: Undefined variable $kegiatan_id
+in APPPATH\Views\auth\kegiatan\daftar.php on line 15.
+ 1 APPPATH\Views\auth\kegiatan\daftar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kegiatan_id', 'D:\\Project\\Website\\TPQ\\TPQ\\app\\Views\\auth\\kegiatan\\daftar.php', 15)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\Project\\Website\\TPQ\\TPQ\\app\\Views\\auth\\kegiatan\\daftar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('auth/kegiatan/daftar', [], true)
+ 5 APPPATH\Controllers\Kegiatan.php(483): view('auth/kegiatan/daftar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftar()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Project\\Website\\TPQ\\TPQ\\public\\index.php')
+INFO - 2024-01-21 12:30:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-21 12:30:01 --> ErrorException: Undefined variable $kegiatan_id
+in APPPATH\Views\auth\kegiatan\daftar.php on line 15.
+ 1 APPPATH\Views\auth\kegiatan\daftar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kegiatan_id', 'D:\\Project\\Website\\TPQ\\TPQ\\app\\Views\\auth\\kegiatan\\daftar.php', 15)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\Project\\Website\\TPQ\\TPQ\\app\\Views\\auth\\kegiatan\\daftar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('auth/kegiatan/daftar', [], true)
+ 5 APPPATH\Controllers\Kegiatan.php(483): view('auth/kegiatan/daftar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftar()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Project\\Website\\TPQ\\TPQ\\public\\index.php')
+INFO - 2024-01-21 12:33:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-21 12:36:09 --> ErrorException: Cannot redeclare App\Controllers\Kegiatan::daftar()
+in APPPATH\Controllers\Kegiatan.php on line 540.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-21 12:36:10 --> ErrorException: Cannot redeclare App\Controllers\Kegiatan::daftar()
+in APPPATH\Controllers\Kegiatan.php on line 540.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-21 12:36:11 --> ErrorException: Cannot redeclare App\Controllers\Kegiatan::daftar()
+in APPPATH\Controllers\Kegiatan.php on line 540.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-21 12:36:11 --> ErrorException: Cannot redeclare App\Controllers\Kegiatan::daftar()
+in APPPATH\Controllers\Kegiatan.php on line 540.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-01-21 12:36:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-21 12:36:14 --> ErrorException: Cannot redeclare App\Controllers\Kegiatan::daftar()
+in APPPATH\Controllers\Kegiatan.php on line 540.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-01-21 12:37:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 12:37:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 12:37:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 12:41:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 12:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 12:43:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 12:43:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 12:43:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 12:43:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 12:43:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-21 12:43:47 --> ErrorException: Undefined variable $kegiatan_id
+in APPPATH\Views\auth\kegiatan\daftar.php on line 16.
+ 1 APPPATH\Views\auth\kegiatan\daftar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kegiatan_id', 'D:\\Project\\Website\\TPQ\\TPQ\\app\\Views\\auth\\kegiatan\\daftar.php', 16)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\Project\\Website\\TPQ\\TPQ\\app\\Views\\auth\\kegiatan\\daftar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('auth/kegiatan/daftar', [], true)
+ 5 APPPATH\Controllers\Kegiatan.php(546): view('auth/kegiatan/daftar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftar()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Project\\Website\\TPQ\\TPQ\\public\\index.php')
+INFO - 2024-01-21 12:44:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 12:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 12:44:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 12:44:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 12:44:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 12:44:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 12:45:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 12:45:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 12:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 12:45:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 12:45:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 12:45:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 12:46:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 12:46:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 12:46:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 12:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 12:46:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 12:47:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 12:48:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 12:48:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 12:48:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 12:48:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 12:48:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 12:50:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 12:58:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 12:58:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 12:59:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:00:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:00:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:00:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:00:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:01:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:04:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:04:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:04:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:05:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:05:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:05:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:07:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:07:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:07:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:07:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:08:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:08:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:08:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:08:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:08:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:08:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:09:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:18:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:18:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:18:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:18:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:18:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:18:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:19:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:19:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:19:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:19:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:19:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:20:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:20:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:20:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:20:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:20:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:21:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:21:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:21:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:21:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:21:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:21:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:21:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:22:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:22:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:22:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:22:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:22:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:22:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:23:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:23:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:23:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:23:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:23:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:23:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:23:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:24:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:24:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:24:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:28:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:28:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:28:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:28:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:28:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:29:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:29:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:29:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:29:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:29:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:29:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:29:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:29:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:29:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:29:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:29:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:29:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:29:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:31:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:31:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:31:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:31:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:31:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:31:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:31:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:31:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:31:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:31:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:31:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:31:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:31:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:31:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:31:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:31:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:31:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:31:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:32:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:32:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:32:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:32:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:32:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:32:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:32:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:32:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:32:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:32:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:32:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:32:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:32:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:32:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:32:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:32:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:33:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:33:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:33:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:33:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:33:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:33:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:33:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:33:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:33:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:34:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:35:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:35:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:36:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:36:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:36:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:36:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-21 13:36:44 --> ErrorException: Undefined array key "nama_kategori"
+in APPPATH\Views\auth\pendaftar\list.php on line 17.
+ 1 APPPATH\Views\auth\pendaftar\list.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_kategori"', 'D:\\Project\\Website\\TPQ\\TPQ\\app\\Views\\auth\\pendaftar\\list.php', 17)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\Project\\Website\\TPQ\\TPQ\\app\\Views\\auth\\pendaftar\\list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('auth/pendaftar/list', [], true)
+ 5 APPPATH\Controllers\Kegiatan.php(551): view('auth/pendaftar/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->getpendaftar()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Project\\Website\\TPQ\\TPQ\\public\\index.php')
+INFO - 2024-01-21 13:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:38:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:38:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-21 13:38:41 --> ErrorException: Undefined array key "nama_kategori"
+in APPPATH\Views\auth\pendaftar\list.php on line 17.
+ 1 APPPATH\Views\auth\pendaftar\list.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_kategori"', 'D:\\Project\\Website\\TPQ\\TPQ\\app\\Views\\auth\\pendaftar\\list.php', 17)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\Project\\Website\\TPQ\\TPQ\\app\\Views\\auth\\pendaftar\\list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('auth/pendaftar/list', [], true)
+ 5 APPPATH\Controllers\Kegiatan.php(550): view('auth/pendaftar/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->getpendaftar()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Project\\Website\\TPQ\\TPQ\\public\\index.php')
+INFO - 2024-01-21 13:39:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:39:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:39:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-21 13:39:15 --> ErrorException: Undefined array key "nama_kategori"
+in APPPATH\Views\auth\pendaftar\list.php on line 18.
+ 1 APPPATH\Views\auth\pendaftar\list.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_kategori"', 'D:\\Project\\Website\\TPQ\\TPQ\\app\\Views\\auth\\pendaftar\\list.php', 18)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\Project\\Website\\TPQ\\TPQ\\app\\Views\\auth\\pendaftar\\list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('auth/pendaftar/list', [], true)
+ 5 APPPATH\Controllers\Kegiatan.php(551): view('auth/pendaftar/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->getpendaftar()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Project\\Website\\TPQ\\TPQ\\public\\index.php')
+INFO - 2024-01-21 13:39:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:39:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-21 13:39:29 --> ErrorException: Undefined array key "kategori_id"
+in APPPATH\Views\auth\pendaftar\list.php on line 20.
+ 1 APPPATH\Views\auth\pendaftar\list.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kategori_id"', 'D:\\Project\\Website\\TPQ\\TPQ\\app\\Views\\auth\\pendaftar\\list.php', 20)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\Project\\Website\\TPQ\\TPQ\\app\\Views\\auth\\pendaftar\\list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('auth/pendaftar/list', [], true)
+ 5 APPPATH\Controllers\Kegiatan.php(551): view('auth/pendaftar/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->getpendaftar()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Project\\Website\\TPQ\\TPQ\\public\\index.php')
+INFO - 2024-01-21 13:39:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-21 13:39:56 --> ErrorException: Undefined array key "kategori_id"
+in APPPATH\Views\auth\pendaftar\list.php on line 20.
+ 1 APPPATH\Views\auth\pendaftar\list.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kategori_id"', 'D:\\Project\\Website\\TPQ\\TPQ\\app\\Views\\auth\\pendaftar\\list.php', 20)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\Project\\Website\\TPQ\\TPQ\\app\\Views\\auth\\pendaftar\\list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('auth/pendaftar/list', [], true)
+ 5 APPPATH\Controllers\Kegiatan.php(551): view('auth/pendaftar/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->getpendaftar()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Project\\Website\\TPQ\\TPQ\\public\\index.php')
+INFO - 2024-01-21 13:41:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-21 13:41:28 --> ErrorException: Undefined array key "alumni"
+in APPPATH\Views\auth\pendaftar\list.php on line 24.
+ 1 APPPATH\Views\auth\pendaftar\list.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "alumni"', 'D:\\Project\\Website\\TPQ\\TPQ\\app\\Views\\auth\\pendaftar\\list.php', 24)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\Project\\Website\\TPQ\\TPQ\\app\\Views\\auth\\pendaftar\\list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('auth/pendaftar/list', [], true)
+ 5 APPPATH\Controllers\Kegiatan.php(551): view('auth/pendaftar/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->getpendaftar()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Project\\Website\\TPQ\\TPQ\\public\\index.php')
+INFO - 2024-01-21 13:41:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:41:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:41:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:42:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:42:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:44:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:44:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:44:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:44:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:44:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:44:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:44:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:45:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:45:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:45:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:45:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:45:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:45:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:45:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:45:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:45:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:45:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:45:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:45:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:45:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:45:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:46:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:46:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:46:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:46:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:46:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:46:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:46:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:47:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:47:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:47:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:47:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:47:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:47:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:47:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:47:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:47:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:47:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:47:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:47:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:47:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:47:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:47:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:47:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:48:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:48:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:48:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:48:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:48:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:48:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:48:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:48:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:48:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:52:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:52:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:52:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:52:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:52:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:52:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:52:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:52:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:52:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:52:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:53:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:53:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:53:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:53:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:53:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:53:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 14:06:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 14:07:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 14:07:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 14:07:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 14:07:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 14:07:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 14:07:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 14:18:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 14:18:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 14:19:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 14:19:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 14:19:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 14:19:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-21 14:19:08 --> mysqli_sql_exception: Table 'sekolah.pendaftar' doesn't exist in C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `pendaft...', 0)
+#1 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pendaft...')
+#2 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pendaft...')
+#3 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `pendaft...', Array, false)
+#4 C:\xampp\htdocs\terbaru\TPQ\system\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\terbaru\TPQ\app\Models\Modelpendaftar.php(25): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\terbaru\TPQ\app\Controllers\Kegiatan.php(548): App\Models\Modelpendaftar->list()
+#7 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(941): App\Controllers\Kegiatan->getpendaftar()
+#8 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+#9 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\terbaru\TPQ\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\terbaru\TPQ\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-01-21 14:19:08 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `pendaftar`.*, `kegiatan`.`judul_kegiatan`, `user`.`nama`
+FROM `pendaftar`
+JOIN `kegiatan` ON `kegiatan`.`kegiatan_id` = `pendaftar`.`kegiatan_id`
+JOIN `user` ON `user`.`user_id` = `pendaftar`.`user_id`
+ORDER BY `nomor_pendaftaran` ASC', [], false)
+ 2 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Models\Modelpendaftar.php(25): CodeIgniter\Model->__call('get', [])
+ 4 APPPATH\Controllers\Kegiatan.php(548): App\Models\Modelpendaftar->list()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->getpendaftar()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-01-21 14:19:08 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pendaftar`.*, `kegiatan`.`judul_kegiatan`, `user`.`nama`
+FROM `pendaftar`
+JOIN `kegiatan` ON `kegiatan`.`kegiatan_id` = `pendaftar`.`kegiatan_id`
+JOIN `user` ON `user`.`user_id` = `pendaftar`.`user_id`
+ORDER BY `nomor_pendaftaran` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pendaftar`.*, `kegiatan`.`judul_kegiatan`, `user`.`nama`
+FROM `pendaftar`
+JOIN `kegiatan` ON `kegiatan`.`kegiatan_id` = `pendaftar`.`kegiatan_id`
+JOIN `user` ON `user`.`user_id` = `pendaftar`.`user_id`
+ORDER BY `nomor_pendaftaran` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `pendaftar`.*, `kegiatan`.`judul_kegiatan`, `user`.`nama`
+FROM `pendaftar`
+JOIN `kegiatan` ON `kegiatan`.`kegiatan_id` = `pendaftar`.`kegiatan_id`
+JOIN `user` ON `user`.`user_id` = `pendaftar`.`user_id`
+ORDER BY `nomor_pendaftaran` ASC', [], false)
+ 4 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Models\Modelpendaftar.php(25): CodeIgniter\Model->__call('get', [])
+ 6 APPPATH\Controllers\Kegiatan.php(548): App\Models\Modelpendaftar->list()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->getpendaftar()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-01-21 14:19:08 --> [Caused by] mysqli_sql_exception: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `pendaftar`.*, `kegiatan`.`judul_kegiatan`, `user`.`nama`
+FROM `pendaftar`
+JOIN `kegiatan` ON `kegiatan`.`kegiatan_id` = `pendaftar`.`kegiatan_id`
+JOIN `user` ON `user`.`user_id` = `pendaftar`.`user_id`
+ORDER BY `nomor_pendaftaran` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pendaftar`.*, `kegiatan`.`judul_kegiatan`, `user`.`nama`
+FROM `pendaftar`
+JOIN `kegiatan` ON `kegiatan`.`kegiatan_id` = `pendaftar`.`kegiatan_id`
+JOIN `user` ON `user`.`user_id` = `pendaftar`.`user_id`
+ORDER BY `nomor_pendaftaran` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pendaftar`.*, `kegiatan`.`judul_kegiatan`, `user`.`nama`
+FROM `pendaftar`
+JOIN `kegiatan` ON `kegiatan`.`kegiatan_id` = `pendaftar`.`kegiatan_id`
+JOIN `user` ON `user`.`user_id` = `pendaftar`.`user_id`
+ORDER BY `nomor_pendaftaran` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `pendaftar`.*, `kegiatan`.`judul_kegiatan`, `user`.`nama`
+FROM `pendaftar`
+JOIN `kegiatan` ON `kegiatan`.`kegiatan_id` = `pendaftar`.`kegiatan_id`
+JOIN `user` ON `user`.`user_id` = `pendaftar`.`user_id`
+ORDER BY `nomor_pendaftaran` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\Modelpendaftar.php(25): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\Kegiatan.php(548): App\Models\Modelpendaftar->list()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->getpendaftar()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-01-21 14:19:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 14:19:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 14:19:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 14:19:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 14:19:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 14:19:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 14:19:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 14:19:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 14:19:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 14:20:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-21 14:20:00 --> mysqli_sql_exception: Table 'sekolah.pendaftar' doesn't exist in C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\terbaru\TPQ\system\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\terbaru\TPQ\app\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\terbaru\TPQ\app\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+#7 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+#8 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+#9 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\terbaru\TPQ\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\terbaru\TPQ\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-01-21 14:20:00 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 3 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 4 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-01-21 14:20:00 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 5 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 6 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-01-21 14:20:00 --> [Caused by] mysqli_sql_exception: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 6 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 7 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-01-21 14:20:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-21 14:20:01 --> mysqli_sql_exception: Table 'sekolah.pendaftar' doesn't exist in C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\terbaru\TPQ\system\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\terbaru\TPQ\app\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\terbaru\TPQ\app\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+#7 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+#8 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+#9 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\terbaru\TPQ\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\terbaru\TPQ\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-01-21 14:20:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 3 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 4 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-01-21 14:20:01 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 5 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 6 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-01-21 14:20:01 --> [Caused by] mysqli_sql_exception: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 6 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 7 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-01-21 14:20:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-21 14:20:02 --> mysqli_sql_exception: Table 'sekolah.pendaftar' doesn't exist in C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\terbaru\TPQ\system\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\terbaru\TPQ\app\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\terbaru\TPQ\app\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+#7 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+#8 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+#9 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\terbaru\TPQ\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\terbaru\TPQ\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-01-21 14:20:02 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 3 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 4 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-01-21 14:20:02 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 5 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 6 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-01-21 14:20:02 --> [Caused by] mysqli_sql_exception: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 6 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 7 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-01-21 14:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-21 14:20:03 --> mysqli_sql_exception: Table 'sekolah.pendaftar' doesn't exist in C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\terbaru\TPQ\system\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\terbaru\TPQ\app\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\terbaru\TPQ\app\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+#7 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+#8 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+#9 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\terbaru\TPQ\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\terbaru\TPQ\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-01-21 14:20:03 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 3 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 4 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-01-21 14:20:03 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 5 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 6 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-01-21 14:20:03 --> [Caused by] mysqli_sql_exception: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 6 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 7 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-01-21 14:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-21 14:20:03 --> mysqli_sql_exception: Table 'sekolah.pendaftar' doesn't exist in C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\terbaru\TPQ\system\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\terbaru\TPQ\app\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\terbaru\TPQ\app\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+#7 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+#8 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+#9 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\terbaru\TPQ\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\terbaru\TPQ\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-01-21 14:20:03 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 3 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 4 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-01-21 14:20:03 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 5 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 6 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-01-21 14:20:03 --> [Caused by] mysqli_sql_exception: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 6 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 7 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-01-21 14:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-21 14:20:03 --> mysqli_sql_exception: Table 'sekolah.pendaftar' doesn't exist in C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\terbaru\TPQ\system\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\terbaru\TPQ\app\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\terbaru\TPQ\app\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+#7 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+#8 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+#9 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\terbaru\TPQ\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\terbaru\TPQ\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-01-21 14:20:03 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 3 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 4 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-01-21 14:20:03 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 5 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 6 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-01-21 14:20:03 --> [Caused by] mysqli_sql_exception: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 6 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 7 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-01-21 14:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-21 14:20:03 --> mysqli_sql_exception: Table 'sekolah.pendaftar' doesn't exist in C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\terbaru\TPQ\system\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\terbaru\TPQ\app\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\terbaru\TPQ\app\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+#7 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+#8 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+#9 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\terbaru\TPQ\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\terbaru\TPQ\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-01-21 14:20:03 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 3 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 4 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-01-21 14:20:03 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 5 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 6 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-01-21 14:20:03 --> [Caused by] mysqli_sql_exception: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 6 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 7 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-01-21 14:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-21 14:20:03 --> mysqli_sql_exception: Table 'sekolah.pendaftar' doesn't exist in C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\terbaru\TPQ\system\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\terbaru\TPQ\app\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\terbaru\TPQ\app\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+#7 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+#8 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+#9 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\terbaru\TPQ\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\terbaru\TPQ\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-01-21 14:20:03 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 3 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 4 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-01-21 14:20:03 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 5 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 6 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-01-21 14:20:03 --> [Caused by] mysqli_sql_exception: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 6 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 7 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-01-21 14:20:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-21 14:20:04 --> mysqli_sql_exception: Table 'sekolah.pendaftar' doesn't exist in C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\terbaru\TPQ\system\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\terbaru\TPQ\app\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\terbaru\TPQ\app\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+#7 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+#8 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+#9 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\terbaru\TPQ\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\terbaru\TPQ\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-01-21 14:20:04 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 3 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 4 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-01-21 14:20:04 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 5 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 6 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-01-21 14:20:04 --> [Caused by] mysqli_sql_exception: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 6 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 7 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-01-21 14:20:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-21 14:20:05 --> mysqli_sql_exception: Table 'sekolah.pendaftar' doesn't exist in C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\terbaru\TPQ\system\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\terbaru\TPQ\app\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\terbaru\TPQ\app\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+#7 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+#8 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+#9 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\terbaru\TPQ\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\terbaru\TPQ\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-01-21 14:20:05 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 3 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 4 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-01-21 14:20:05 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 5 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 6 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-01-21 14:20:05 --> [Caused by] mysqli_sql_exception: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 6 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 7 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-01-21 14:20:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-21 14:20:05 --> mysqli_sql_exception: Table 'sekolah.pendaftar' doesn't exist in C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\terbaru\TPQ\system\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\terbaru\TPQ\app\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\terbaru\TPQ\app\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+#7 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+#8 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+#9 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\terbaru\TPQ\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\terbaru\TPQ\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-01-21 14:20:05 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 3 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 4 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-01-21 14:20:05 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 5 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 6 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-01-21 14:20:05 --> [Caused by] mysqli_sql_exception: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 6 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 7 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-01-21 14:20:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-21 14:20:05 --> mysqli_sql_exception: Table 'sekolah.pendaftar' doesn't exist in C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\terbaru\TPQ\system\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\terbaru\TPQ\app\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\terbaru\TPQ\app\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+#7 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+#8 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+#9 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\terbaru\TPQ\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\terbaru\TPQ\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-01-21 14:20:05 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 3 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 4 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-01-21 14:20:05 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 5 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 6 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-01-21 14:20:05 --> [Caused by] mysqli_sql_exception: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 6 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 7 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-01-21 14:20:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-21 14:20:06 --> mysqli_sql_exception: Table 'sekolah.pendaftar' doesn't exist in C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\terbaru\TPQ\system\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\terbaru\TPQ\app\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\terbaru\TPQ\app\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+#7 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+#8 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+#9 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\terbaru\TPQ\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\terbaru\TPQ\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-01-21 14:20:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 3 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 4 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-01-21 14:20:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 5 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 6 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-01-21 14:20:06 --> [Caused by] mysqli_sql_exception: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 6 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 7 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-01-21 14:20:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-21 14:20:06 --> mysqli_sql_exception: Table 'sekolah.pendaftar' doesn't exist in C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\terbaru\TPQ\system\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\terbaru\TPQ\app\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\terbaru\TPQ\app\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+#7 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+#8 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+#9 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\terbaru\TPQ\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\terbaru\TPQ\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-01-21 14:20:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 3 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 4 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-01-21 14:20:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 5 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 6 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-01-21 14:20:06 --> [Caused by] mysqli_sql_exception: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 6 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 7 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-01-21 14:20:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-21 14:20:06 --> mysqli_sql_exception: Table 'sekolah.pendaftar' doesn't exist in C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\terbaru\TPQ\system\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\terbaru\TPQ\app\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\terbaru\TPQ\app\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+#7 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+#8 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+#9 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\terbaru\TPQ\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\terbaru\TPQ\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-01-21 14:20:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 3 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 4 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-01-21 14:20:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 5 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 6 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-01-21 14:20:06 --> [Caused by] mysqli_sql_exception: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 6 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 7 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-01-21 14:20:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-21 14:20:06 --> mysqli_sql_exception: Table 'sekolah.pendaftar' doesn't exist in C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\terbaru\TPQ\system\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\terbaru\TPQ\app\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\terbaru\TPQ\app\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+#7 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+#8 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+#9 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\terbaru\TPQ\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\terbaru\TPQ\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-01-21 14:20:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 3 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 4 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-01-21 14:20:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 5 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 6 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-01-21 14:20:06 --> [Caused by] mysqli_sql_exception: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 6 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 7 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-01-21 14:20:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-21 14:20:06 --> mysqli_sql_exception: Table 'sekolah.pendaftar' doesn't exist in C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\terbaru\TPQ\system\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\terbaru\TPQ\app\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\terbaru\TPQ\app\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+#7 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+#8 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+#9 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\terbaru\TPQ\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\terbaru\TPQ\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-01-21 14:20:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 3 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 4 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-01-21 14:20:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 5 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 6 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-01-21 14:20:06 --> [Caused by] mysqli_sql_exception: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 6 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 7 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-01-21 14:20:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-21 14:20:07 --> mysqli_sql_exception: Table 'sekolah.pendaftar' doesn't exist in C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\terbaru\TPQ\system\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\terbaru\TPQ\app\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\terbaru\TPQ\app\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+#7 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+#8 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+#9 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\terbaru\TPQ\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\terbaru\TPQ\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-01-21 14:20:07 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 3 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 4 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-01-21 14:20:07 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 5 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 6 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-01-21 14:20:07 --> [Caused by] mysqli_sql_exception: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 6 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 7 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-01-21 14:55:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-21 14:55:05 --> mysqli_sql_exception: Table 'sekolah.pendaftar' doesn't exist in C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\terbaru\TPQ\system\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\terbaru\TPQ\app\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\terbaru\TPQ\app\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+#7 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+#8 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+#9 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\terbaru\TPQ\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\terbaru\TPQ\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-01-21 14:55:05 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 3 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 4 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-01-21 14:55:05 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 5 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 6 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-01-21 14:55:05 --> [Caused by] mysqli_sql_exception: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 6 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 7 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-01-21 14:55:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-21 14:55:08 --> mysqli_sql_exception: Table 'sekolah.pendaftar' doesn't exist in C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\terbaru\TPQ\system\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\terbaru\TPQ\app\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\terbaru\TPQ\app\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+#7 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+#8 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+#9 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\terbaru\TPQ\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\terbaru\TPQ\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-01-21 14:55:08 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 3 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 4 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-01-21 14:55:08 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 5 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 6 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-01-21 14:55:08 --> [Caused by] mysqli_sql_exception: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 6 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 7 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-01-21 14:55:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-21 14:55:11 --> mysqli_sql_exception: Table 'sekolah.pendaftar' doesn't exist in C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\terbaru\TPQ\system\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\terbaru\TPQ\app\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\terbaru\TPQ\app\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+#7 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+#8 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+#9 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\terbaru\TPQ\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\terbaru\TPQ\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-01-21 14:55:11 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 3 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 4 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-01-21 14:55:11 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 5 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 6 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-01-21 14:55:11 --> [Caused by] mysqli_sql_exception: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 6 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 7 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-01-21 14:55:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-21 14:55:12 --> mysqli_sql_exception: Table 'sekolah.pendaftar' doesn't exist in C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\terbaru\TPQ\system\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\terbaru\TPQ\app\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\terbaru\TPQ\app\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+#7 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+#8 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+#9 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\terbaru\TPQ\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\terbaru\TPQ\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-01-21 14:55:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 3 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 4 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-01-21 14:55:12 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 5 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 6 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-01-21 14:55:12 --> [Caused by] mysqli_sql_exception: Table 'sekolah.pendaftar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = \'2\'
+AND `user_id` = \'25\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pendaftar`
+WHERE `kegiatan_id` = :kegiatan_id:
+AND `user_id` = :user_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 6 APPPATH\Models\Modelpendaftar.php(34): CodeIgniter\Model->countAllResults()
+ 7 APPPATH\Controllers\Kegiatan.php(174): App\Models\Modelpendaftar->check('2', '25')
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kegiatan->daftarkegiatan()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kegiatan))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')

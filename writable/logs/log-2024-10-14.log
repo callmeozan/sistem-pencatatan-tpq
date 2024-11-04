@@ -1,0 +1,218 @@
+INFO - 2024-10-14 04:06:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-14 04:06:44 --> mysqli_sql_exception: Table 'sekolah.kategori' doesn't exist in C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\terbaru\TPQ\system\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\terbaru\TPQ\app\Models\Modelkegiatan.php(30): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\terbaru\TPQ\app\Controllers\Home.php(13): App\Models\Modelkegiatan->published()
+#7 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(941): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\terbaru\TPQ\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\terbaru\TPQ\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-10-14 04:06:44 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'sekolah.kategori' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kegiatan`
+JOIN `user` ON `user`.`user_id` = `kegiatan`.`user_id`
+JOIN `kategori` ON `kategori`.`kategori_id` = `kegiatan`.`kategori_id`
+WHERE `status` = :status:
+ORDER BY `kegiatan_id` ASC', [...], false)
+ 2 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Models\Modelkegiatan.php(30): CodeIgniter\Model->__call('get', [])
+ 4 APPPATH\Controllers\Home.php(13): App\Models\Modelkegiatan->published()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-10-14 04:06:44 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'sekolah.kategori' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `kegiatan`
+JOIN `user` ON `user`.`user_id` = `kegiatan`.`user_id`
+JOIN `kategori` ON `kategori`.`kategori_id` = `kegiatan`.`kategori_id`
+WHERE `status` = \'published\'
+ORDER BY `kegiatan_id` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `kegiatan`
+JOIN `user` ON `user`.`user_id` = `kegiatan`.`user_id`
+JOIN `kategori` ON `kategori`.`kategori_id` = `kegiatan`.`kategori_id`
+WHERE `status` = \'published\'
+ORDER BY `kegiatan_id` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kegiatan`
+JOIN `user` ON `user`.`user_id` = `kegiatan`.`user_id`
+JOIN `kategori` ON `kategori`.`kategori_id` = `kegiatan`.`kategori_id`
+WHERE `status` = :status:
+ORDER BY `kegiatan_id` ASC', [...], false)
+ 4 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Models\Modelkegiatan.php(30): CodeIgniter\Model->__call('get', [])
+ 6 APPPATH\Controllers\Home.php(13): App\Models\Modelkegiatan->published()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-10-14 04:06:44 --> [Caused by] mysqli_sql_exception: Table 'sekolah.kategori' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `kegiatan`
+JOIN `user` ON `user`.`user_id` = `kegiatan`.`user_id`
+JOIN `kategori` ON `kategori`.`kategori_id` = `kegiatan`.`kategori_id`
+WHERE `status` = \'published\'
+ORDER BY `kegiatan_id` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `kegiatan`
+JOIN `user` ON `user`.`user_id` = `kegiatan`.`user_id`
+JOIN `kategori` ON `kategori`.`kategori_id` = `kegiatan`.`kategori_id`
+WHERE `status` = \'published\'
+ORDER BY `kegiatan_id` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `kegiatan`
+JOIN `user` ON `user`.`user_id` = `kegiatan`.`user_id`
+JOIN `kategori` ON `kategori`.`kategori_id` = `kegiatan`.`kategori_id`
+WHERE `status` = \'published\'
+ORDER BY `kegiatan_id` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kegiatan`
+JOIN `user` ON `user`.`user_id` = `kegiatan`.`user_id`
+JOIN `kategori` ON `kategori`.`kategori_id` = `kegiatan`.`kategori_id`
+WHERE `status` = :status:
+ORDER BY `kegiatan_id` ASC', [...], false)
+ 5 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\Modelkegiatan.php(30): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\Home.php(13): App\Models\Modelkegiatan->published()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-14 04:18:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-14 04:18:37 --> Error: Class 'App\Models\Modelkategori' not found
+in APPPATH\Controllers\BaseController.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-14 04:20:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-14 04:20:06 --> Error: Class 'App\Controllers\Modelmapel' not found
+in APPPATH\Controllers\BaseController.php on line 55.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-14 04:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-14 04:20:23 --> mysqli_sql_exception: Table 'sekolah.kategori' doesn't exist in C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\terbaru\TPQ\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\terbaru\TPQ\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\terbaru\TPQ\system\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\terbaru\TPQ\app\Models\Modelkegiatan.php(30): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\terbaru\TPQ\app\Controllers\Home.php(13): App\Models\Modelkegiatan->published()
+#7 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(941): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\terbaru\TPQ\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\terbaru\TPQ\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\terbaru\TPQ\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-10-14 04:20:23 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'sekolah.kategori' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kegiatan`
+JOIN `user` ON `user`.`user_id` = `kegiatan`.`user_id`
+JOIN `kategori` ON `kategori`.`kategori_id` = `kegiatan`.`kategori_id`
+WHERE `status` = :status:
+ORDER BY `kegiatan_id` ASC', [...], false)
+ 2 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Models\Modelkegiatan.php(30): CodeIgniter\Model->__call('get', [])
+ 4 APPPATH\Controllers\Home.php(13): App\Models\Modelkegiatan->published()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-10-14 04:20:23 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'sekolah.kategori' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `kegiatan`
+JOIN `user` ON `user`.`user_id` = `kegiatan`.`user_id`
+JOIN `kategori` ON `kategori`.`kategori_id` = `kegiatan`.`kategori_id`
+WHERE `status` = \'published\'
+ORDER BY `kegiatan_id` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `kegiatan`
+JOIN `user` ON `user`.`user_id` = `kegiatan`.`user_id`
+JOIN `kategori` ON `kategori`.`kategori_id` = `kegiatan`.`kategori_id`
+WHERE `status` = \'published\'
+ORDER BY `kegiatan_id` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kegiatan`
+JOIN `user` ON `user`.`user_id` = `kegiatan`.`user_id`
+JOIN `kategori` ON `kategori`.`kategori_id` = `kegiatan`.`kategori_id`
+WHERE `status` = :status:
+ORDER BY `kegiatan_id` ASC', [...], false)
+ 4 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Models\Modelkegiatan.php(30): CodeIgniter\Model->__call('get', [])
+ 6 APPPATH\Controllers\Home.php(13): App\Models\Modelkegiatan->published()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+CRITICAL - 2024-10-14 04:20:23 --> [Caused by] mysqli_sql_exception: Table 'sekolah.kategori' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `kegiatan`
+JOIN `user` ON `user`.`user_id` = `kegiatan`.`user_id`
+JOIN `kategori` ON `kategori`.`kategori_id` = `kegiatan`.`kategori_id`
+WHERE `status` = \'published\'
+ORDER BY `kegiatan_id` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `kegiatan`
+JOIN `user` ON `user`.`user_id` = `kegiatan`.`user_id`
+JOIN `kategori` ON `kategori`.`kategori_id` = `kegiatan`.`kategori_id`
+WHERE `status` = \'published\'
+ORDER BY `kegiatan_id` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `kegiatan`
+JOIN `user` ON `user`.`user_id` = `kegiatan`.`user_id`
+JOIN `kategori` ON `kategori`.`kategori_id` = `kegiatan`.`kategori_id`
+WHERE `status` = \'published\'
+ORDER BY `kegiatan_id` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kegiatan`
+JOIN `user` ON `user`.`user_id` = `kegiatan`.`user_id`
+JOIN `kategori` ON `kategori`.`kategori_id` = `kegiatan`.`kategori_id`
+WHERE `status` = :status:
+ORDER BY `kegiatan_id` ASC', [...], false)
+ 5 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\Modelkegiatan.php(30): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\Home.php(13): App\Models\Modelkegiatan->published()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-14 05:25:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-14 05:25:20 --> ErrorException: Undefined index: nama_kategori
+in APPPATH\Views\front\layout\menu.php on line 161.
+ 1 APPPATH\Views\front\layout\menu.php(161): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nama_kategori', 'C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Views\\front\\layout\\menu.php', 161, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\terbaru\\TPQ\\app\\Views\\front\\layout\\menu.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/layout/menu', [], true)
+ 5 APPPATH\Controllers\Home.php(27): view('front/layout/menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\terbaru\\TPQ\\public\\index.php')
+INFO - 2024-10-14 05:26:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
