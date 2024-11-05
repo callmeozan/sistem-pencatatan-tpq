@@ -12,6 +12,11 @@
       <?= csrf_field(); ?>
       <div class="modal-body">
         <div class="form-group row">
+          <div class="col-sm-8">
+            <input type="hidden" class="form-control" id="id" name="id" style="width: 100%;">
+          </div>
+        </div>
+        <div class="form-group row">
           <label for="nama" class="col-sm-4 col-form-label">Nama</label>
           <div class="col-sm-8">
             <input type="text" class="form-control" id="nama" name="nama">
@@ -75,5 +80,26 @@
 </div>
 
 <script>
- 
+ $(document).on('submit', '.formupdate', function(e) {
+    e.preventDefault();
+
+    $.ajax({
+        url: $(this).attr('action'),
+        method: $(this).attr('method'),
+        data: $(this).serialize(),
+        dataType: 'json',
+        success: function(response) {
+            if (response.success) {
+                alert(response.message); // Notifikasi untuk memberi tahu pengguna
+                window.history.back(); // Kembali ke halaman sebelumnya
+            } else {
+                alert(response.message || "Terjadi kesalahan.");
+            }
+        },
+        error: function(xhr, status, error) {
+            console.error("AJAX error:", error);
+            alert("Gagal memperbarui data. Silakan coba lagi.");
+        }
+    });
+});
 </script>
