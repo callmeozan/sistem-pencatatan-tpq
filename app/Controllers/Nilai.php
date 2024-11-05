@@ -181,4 +181,34 @@ class Nilai extends BaseController
             return redirect()->to('/nilai')->with('error', 'Data tidak ditemukan.');
         }
     }
+
+    public function updateData()
+    {
+        $modelNilai = new Modelnilai(); // Inisialisasi model di sini
+
+        // Mendapatkan nilai_id dari input form
+        $nilai_id = $this->request->getPost('id');
+        $data = [
+            'santri_id' => $this->request->getPost('nama'),
+            'pengajar_id' => $this->request->getPost('pengajar'),
+            'jilid_hal' => $this->request->getPost('halaman'),
+            'surat' => $this->request->getPost('surah'),
+            'kelancaran' => $this->request->getPost('kelancaran'),
+            'kefasihan' => $this->request->getPost('kefasihan'),
+            'nilai' => "",
+            'paraf' => $this->request->getPost('keterangan')
+        ];
+
+        try {
+            $updateStatus = $modelNilai->update($nilai_id, $data);
+            if ($updateStatus) {
+                return $this->response->setJSON(['success' => true, 'message' => 'Data berhasil diperbarui']);
+            } else {
+                return $this->response->setJSON(['success' => false, 'message' => 'Gagal memperbarui data']);
+            }
+        } catch (\Throwable $th) {
+            return $this->response->setJSON(['success' => false, 'error' => $th->getMessage()]);
+        }
+    }
 }
+

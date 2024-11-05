@@ -121,83 +121,61 @@
 
     // Lakukan AJAX untuk mengambil data berdasarkan nilai_id
     $.ajax({
-      url: '/nilai/getNilaiById', // Pastikan URL sesuai dengan route di CodeIgniter
-      type: 'POST',
-      data: {
-        nilai_id: nilai_id
-      },
-      dataType: 'json',
-      success: function(response) {
-        console.log("Response:", response); // Debug: cek respon dari server
-        // Fungsi untuk parsing data
-function parseData(obj) {
-    return {
-        nilaiId: obj.nilai_id,
-        santriId: obj.santri_id,
-        pengajarId: obj.pengajar_id,
-        jilidHal: obj.jilid_hal,
-        surat: obj.surat,
-        kefasihan: parseInt(obj.kefasihan), // mengubah ke angka
-        kelancaran: parseInt(obj.kelancaran), // mengubah ke angka
-        nilai: obj.nilai,
-        paraf: obj.paraf
-    };
-}
+        url: '/nilai/getNilaiById', // Pastikan URL sesuai dengan route di CodeIgniter
+        type: 'POST',
+        data: {
+            nilai_id: nilai_id
+        },
+        dataType: 'json',
+        success: function(response) {
+            console.log("Response:", response); // Debug: cek respon dari server
 
-function getValue(obj, key) {
-    return obj[key]; // Mengembalikan nilai berdasarkan kunci
-}
+            // Fungsi untuk parsing data
+            function parseData(obj) {
+                return {
+                    nilaiId: obj.nilai_id,
+                    santriId: obj.santri_id,
+                    pengajarId: obj.pengajar_id,
+                    jilidHal: obj.jilid_hal,
+                    surat: obj.surat,
+                    kefasihan: parseInt(obj.kefasihan), // mengubah ke angka
+                    kelancaran: parseInt(obj.kelancaran), // mengubah ke angka
+                    nilai: obj.nilai,
+                    paraf: obj.paraf
+                };
+            }
 
-// Mengambil nilai spesifik
-const nilaiId = getValue(response, 'nilai_id');
-const santriId = getValue(response, 'santri_id');
-const pengajarId = getValue(response, 'pengajarId');
-const jilidHal = getValue(response, 'jilidHal');
-const surat = getValue(response, 'surat');
-const kefasihan = getValue(response, 'kefasihan');
-const kelancaran = getValue(response, 'kelancaran');
-const nilai = getValue(response, 'nilai');
-const paraf = getValue(response, 'paraf');
+            // Menggunakan fungsi untuk parsing
+            const parsedData = parseData(response);
 
+            // Pastikan response ada
+            if (response) {
+                // AJAX untuk mengambil form edit dan menampilkan modal
+                $.ajax({
+                    url: "<?= site_url('nilai/formEdit') ?>",
+                    dataType: "json",
+                    success: function(response) {
+                        $('.viewmodal').html(response.data).show();
+                        $('#modalupdate').modal('show');
 
-
-// Menggunakan fungsi untuk parsing
-const parsedData = parseData(response);
-
-console.log(parsedData);
-        // Pastikan response ada
-        if (response) {
-          // Isi form dengan data yang diterima dari server
-          // Tampilkan modal
-          //   $('#modalupdate').modal('show');
-          $.ajax({
-              url: "<?= site_url('nilai/formEdit') ?>",
-              dataType: "json",
-              success: function(response) {
-                  $('.viewmodal').html(response.data).show();
-                  
-                  $('#modalupdate').modal('show');
-                }
-            });
-            if ($('#nama').length) {
-                console.log("Ada");
-              } else {
-                  console.log("Tidak ada");
-              }
-            $('#nama').val(santriId);
-            $('#pengajar').val(pengajarId);
-            $('#halaman').val(jilidHal);
-            $('#surah').val(surat);
-            $('#kelancaran').val(kelancaran);
-            $('#kefasihan').val(kefasihan);
-            $('#keterangan').val(paraf);
-        } else {
-          console.error("Data not found for nilai_id:", nilai_id);
+                        // Isi form dengan data yang diambil dari parsedData
+                        $('#id').val(parsedData.nilaiId);
+                        $('#nama').val(parsedData.santriId);
+                        $('#pengajar').val(parsedData.pengajarId);
+                        $('#halaman').val(parsedData.jilidHal);
+                        $('#surah').val(parsedData.surat);
+                        $('#kelancaran').val(parsedData.kelancaran);
+                        $('#kefasihan').val(parsedData.kefasihan);
+                        $('#keterangan').val(parsedData.paraf);
+                    }
+                });
+            } else {
+                console.error("Data not found for nilai_id:", nilai_id);
+            }
+        },
+        error: function(xhr, status, error) {
+            console.error("AJAX error:", error);
         }
-      },
-      error: function(xhr, status, error) {
-        console.error("AJAX error:", error);
-      }
     });
-  });
+});
 </script>
