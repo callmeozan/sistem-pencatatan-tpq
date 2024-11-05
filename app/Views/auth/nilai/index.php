@@ -14,7 +14,7 @@
 <?= $this->endSection('judul') ?>
 
 <?= $this->section('isi') ?>
-<p class="sub-title"> <button type="button" class="btn btn-primary btn-sm   "><i class=" fa fa-plus-circle"></i> Masukan Nilai</button>
+<p class="sub-title"> <button type="button" class="btn btn-primary btn-sm tambahnilai"><i class=" fa fa-plus-circle"></i> Masukan Nilai</button>
 </p>
 <div class="viewdata">
 </div>
